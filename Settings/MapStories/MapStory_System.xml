@@ -1,0 +1,53 @@
+<Stories><List>
+<Story Name="System_LearnGreateBuilding">
+		<DisplayName>参悟大道</DisplayName>
+		<Desc>传闻这座奇观中蕴含着某种阵法之道，[NAME]试图参悟该奇观中蕴含的天地法则以领悟什么。</Desc>		
+		<Kind>None</Kind>		
+		<Selections>
+			<li>
+				<Display>参悟大道</Display>
+				<Tip>境界/悟性/机缘/阵法技能</Tip>
+				<OKResult>
+				<![CDATA[
+				local tBuildList = {
+					["Building_BaBaoGongDe_Our"] = "Esoterica_ZhenFa_18",
+					["Building_WanDaoZunFaZuo_Our"] = "Esoterica_ZhenFa_22",
+					["Building_QiQingQingTongShu_Our"] = "Esoterica_ZhenFa_17",
+					["Building_ZhouTianXingDouPan_Our"] = "Esoterica_ZhenFa_16",
+					["Building_WuLongXuanJinTa_Our"] = "Esoterica_ZhenFa_19",
+					["Building_ShuShanJianChi_Our"] = "Esoterica_ZhenFa_20",
+					["Building_LingYuFeng_Our"] = "Esoterica_ZhenFa_24",
+					["Building_WanGuXieFaTan_Our"] = "Esoterica_ZhenFa_26",
+					["Building_XuanCiTianKeng_Our"] = "Esoterica_ZhenFa_25",
+					["Building_QiShaShenBei_Our"] = "Esoterica_ZhenFa_27",
+					["Building_XuanYinShengQuan_Our"] = "Esoterica_ZhenFa_21",
+                    ["Building_YaoZuYiHai_Our"] = "Esoterica_ZhenFa_23"
+					};
+				if me:IsLearnedEsoteric(tBuildList[story:GetBindThing().def.Name]) == true then
+					me:AddMsg(XT("[NAME]已经参悟这些奥妙了。"))
+				else
+					if me:GetGLevel() >= 12 and (me:GetIntelligence() + me:GetLuck() >= 18) and me:GetSkillLevel("Zhen") >=15 then
+						local bindthingname = story:GetBindThing():GetName()
+						me:AddMsg(string.format(XT("[NAME]运转元神，尝试参悟%s中蕴含的大道。竟然从中领悟出一些阵法的奥义。"), tostring(bindthingname)));
+						me:LearnEsoteric(tBuildList[story:GetBindThing().def.Name])
+						if tBuildList[story:GetBindThing().def.Name] == "Building_ZhouTianXingDouPan" then
+							me:LearnEsoteric("Esoterica_ZhenFa_23")
+						end
+					else 
+						local bindthingname = story:GetBindThing():GetName()
+						me:AddMsg(string.format(XT("[NAME]运转元神，尝试参悟%s中蕴含的大道，然而受限于自身积累不足，最终一无所获。"), tostring(bindthingname)));
+					end
+				end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开</Display>
+				<OKResult><![CDATA[	
+					me:AddMsg(XT("[NAME]想了想，决定还是不要冒失。"));
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+</List></Stories>

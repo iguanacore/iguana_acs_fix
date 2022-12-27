@@ -1,0 +1,11 @@
+<Texts Type="Story">
+  <List>
+    <Text Name="System_LearnGreateBuilding">
+			<DisplayName>Meditate on a Wonder</DisplayName>
+			<Desc>It is said that there is a secret to a mysterious formation within this wonder, and [NAME] tries to meditate on it.</Desc>
+			<Selections.0.Display>Meditate on a Wonder</Selections.0.Display>
+			<Selections.0.Tip>State/Intelligence/Luck/Formation Skill</Selections.0.Tip>
+			<Selections.1.Display>Leave</Selections.1.Display>
+    </Text>
+  </List>
+</Texts>

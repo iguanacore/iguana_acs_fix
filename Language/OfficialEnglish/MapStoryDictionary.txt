@@ -1,0 +1,5 @@
+Key	Value
+[NAME]已经参悟这些奥妙了。	[NAME] had meditated on these mysteries.
+[NAME]运转元神，尝试参悟%s中蕴含的大道。竟然从中领悟出一些阵法的奥义。	[NAME] used the Primordial Spirit and tried to meditate on the creed within %s, ending up coming to realize some profundities about some formations.
+[NAME]运转元神，尝试参悟%s中蕴含的大道，然而受限于自身积累不足，最终一无所获。	[NAME] used the Primordial Spirit and tried to meditate on the creed within %s. However, due to limited experience, the poor meditator gained nothing from it.
+[NAME]想了想，决定还是不要冒失。	[NAME] though it over and decided it's better not to be rash.
