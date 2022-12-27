@@ -1,0 +1,7 @@
+<Texts Type="Other">
+	<List>
+		<Text Name="NpcFight_SpellCoolDownAddP">
+			<DisplayName>Spell Cooldown Bonus</DisplayName>
+		</Text>
+    </List>
+</Texts>

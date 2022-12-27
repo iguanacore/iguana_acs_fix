@@ -1,0 +1,9 @@
+ID	Desc	MidName
+ID	Description	中间词缀 参与名字随机
+
+2000	Reduces Spell Qi Cost	Blessed Spirit
+2001	Reduces Spell Cast Delay	Cursed Spirit
+2002	Increases Spell Power	Heavenly Debacle
+2003	Reduces Spell Qi Cost	Blessed Spirit
+2004	Learn Combat Skill:	Spell Chant
+2005	Reduces Spell Cooldown	Urgent Chant

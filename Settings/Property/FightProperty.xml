@@ -1,0 +1,17 @@
+<Properties><List>	
+	<Property Name="NpcFight_SpellCoolDownAddP">
+		<DisplayName>术法冷却时间加成</DisplayName>
+		<DisplayValue>{0:P}</DisplayValue>
+		<Desc></Desc>
+		<ShowInUI>0</ShowInUI>	
+		<GenerateRandom>0</GenerateRandom>	
+	
+		<SupportCustom>0</SupportCustom>
+		<BaseValue>1</BaseValue>
+		<MinValue>-0.5</MinValue> 
+		
+		<Skills>
+			<li Name="FightSkill" Weight="1" Base="0" Addion="-0.01"/>
+		</Skills>
+	</Property>	
+</List></Properties>
