@@ -1,0 +1,1477 @@
+<ZhenNodeDefs><List>
+	
+<!-- 	<Condition>
+		<li>
+			<SexNeed>Male</SexNeed> None Female
+			<GongLevelNeed>God</GongLevelNeed>
+			<MaxLingNeed>99999</MaxLingNeed>
+			<DaoHangNeed>200</DaoHangNeed>
+			<EquipmentNeed>Item_MiBao_ZhuXianZhenTu</EquipmentNeed>
+			<EsotericaNeed>jdj</EsotericaNeed>
+			<SkillNeed Type="Fabao" Level="20"/>
+			<GongNeed GongKind="None" GongName="dddddd"/>
+		</li>
+	</Condition> -->
+	
+	
+	<Def Name="zhuxian_0" DisplayName="诛仙阵枢" Main="1" Base="0">
+		<SlotSuits>
+			<li>SlotSuit_SpZhen_1</li>
+		</SlotSuits>
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv3_Sheng" Pos="1"/>
+			<li SlotName="Lv3_Mie" Pos="2"/>
+			<li SlotName="Lv3_Ri" Pos="3"/>
+			<li SlotName="Lv3_Yue" Pos="4"/>
+		</Slot>
+		
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<EquipmentNeed>Item_MiBao_ZhuXianZhenTu</EquipmentNeed>
+						<GongLevelNeed>God</GongLevelNeed>
+						<DaoHangNeed>350</DaoHangNeed>
+						<SkillNeed Type="Fabao" Level="30"/>
+						<GongNeed GongKind="None"/>
+					</li>
+				</Condition>
+				<SuitName>zhuxianzhen</SuitName>
+				<V>0</V>
+			</li>
+		</Suit>
+	</Def>
+	<Def Name="zhuxian_1" DisplayName="诛仙" Main="0" Base="0">		
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv3_Yang" Pos="4"/>
+			<li SlotName="Lv3_Ri" Pos="5"/>
+		</Slot>
+		
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<GongLevelNeed>God</GongLevelNeed>
+						<DaoHangNeed>350</DaoHangNeed>
+						<SkillNeed Type="Fabao" Level="25"/>
+						<GongNeed GongKind="Tu"/>
+						<EquipmentNeed>Item_MiBao_ZhuXianJian</EquipmentNeed>
+					</li>
+				</Condition>
+				<SuitName>zhuxianzhen</SuitName>
+				<V>1</V>
+			</li>
+		</Suit>
+	</Def>
+	<Def Name="zhuxian_2" DisplayName="戮仙" Main="0" Base="0">		
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv3_Yang" Pos="0"/>
+			<li SlotName="Lv3_Yue" Pos="1"/>
+		</Slot>
+		
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<GongLevelNeed>God</GongLevelNeed>
+						<DaoHangNeed>350</DaoHangNeed>
+						<SkillNeed Type="Fabao" Level="25"/>
+						<GongNeed GongKind="Mu"/>
+						<EquipmentNeed>Item_MiBao_LuXianJian</EquipmentNeed>
+					</li>
+				</Condition>
+				<SuitName>zhuxianzhen</SuitName>
+				<V>2</V>
+			</li>
+		</Suit>
+	</Def>
+	<Def Name="zhuxian_3" DisplayName="陷仙" Main="0" Base="0">		
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv3_Yin" Pos="1"/>
+			<li SlotName="Lv3_Sheng" Pos="2"/>
+		</Slot>
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<GongLevelNeed>God</GongLevelNeed>
+						<DaoHangNeed>350</DaoHangNeed>
+						<SkillNeed Type="Fabao" Level="25"/>
+						<GongNeed GongKind="Shui"/>
+						<EquipmentNeed>Item_MiBao_XianXianJian</EquipmentNeed>
+					</li>
+				</Condition>
+				<SuitName>zhuxianzhen</SuitName>
+				<V>3</V>
+			</li>
+		</Suit>
+	</Def>
+	<Def Name="zhuxian_4" DisplayName="绝仙" Main="0" Base="0">	
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv3_Yin" Pos="0"/>
+			<li SlotName="Lv3_Mie" Pos="3"/>
+		</Slot>	
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<GongLevelNeed>God</GongLevelNeed>
+						<DaoHangNeed>350</DaoHangNeed>
+						<SkillNeed Type="Fabao" Level="25"/>
+						<GongNeed GongKind="Huo"/>
+						<EquipmentNeed>Item_MiBao_JueXianJian</EquipmentNeed>
+					</li>
+				</Condition>
+				<SuitName>zhuxianzhen</SuitName>
+				<V>4</V>
+			</li>
+		</Suit>
+	</Def>
+	
+	
+	<Def Name="qixing_0" DisplayName="天权" Main="1" Base="0">
+		<SlotSuits>
+			<li>SlotSuit_SpZhen_2</li>
+		</SlotSuits>
+		
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv3_Hua" Pos="3"/>
+			<li SlotName="Lv3_Mie" Pos="5"/>
+		</Slot>
+		
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<GongLevelNeed>God</GongLevelNeed>
+						<EsotericaNeed>Gong8_Esoterica_6</EsotericaNeed>
+						<SkillNeed Type="Fabao" Level="25"/>
+						<EquipmentNeed>Item_MiBao_TianQuan</EquipmentNeed>
+					</li>
+					<li>
+						<EquipmentNeed>Item_MiBao_QiXingZhenTu</EquipmentNeed>
+					</li>
+				</Condition>
+				<SuitName>qixingzhen</SuitName>
+				<V>0</V>
+			</li>
+		</Suit>
+	</Def>
+	
+	<Def Name="qixing_1" DisplayName="天枢" Main="0" Base="0">	
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv3_Shi" Pos="0"/>
+		</Slot>	
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<GongLevelNeed>God</GongLevelNeed>
+						<EsotericaNeed>Gong8_Esoterica_3</EsotericaNeed>
+						<SkillNeed Type="Fabao" Level="25"/>
+						<EquipmentNeed>Item_MiBao_TianShu</EquipmentNeed>
+					</li>
+				</Condition>
+				<SuitName>qixingzhen</SuitName>
+				<V>1</V>
+			</li>
+		</Suit>
+	</Def>
+	
+	<Def Name="qixing_2" DisplayName="天璇" Main="0" Base="0">	
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv3_Yang" Pos="1"/>
+			<li SlotName="Lv3_Shi" Pos="5"/>
+		</Slot>	
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<GongLevelNeed>God</GongLevelNeed>
+						<EsotericaNeed>Gong8_Esoterica_4</EsotericaNeed>
+						<SkillNeed Type="Fabao" Level="25"/>
+						<EquipmentNeed>Item_MiBao_TianXuan</EquipmentNeed>
+					</li>
+				</Condition>
+				<SuitName>qixingzhen</SuitName>
+				<V>2</V>
+			</li>
+		</Suit>
+	</Def>
+	
+	<Def Name="qixing_3" DisplayName="天玑" Main="0" Base="0">	
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv3_Yang" Pos="3"/>
+			<li SlotName="Lv3_Mie" Pos="5"/>
+		</Slot>	
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<GongLevelNeed>God</GongLevelNeed>
+						<EsotericaNeed>Gong8_Esoterica_5</EsotericaNeed>
+						<SkillNeed Type="Fabao" Level="25"/>
+						<EquipmentNeed>Item_MiBao_TianJi</EquipmentNeed>
+					</li>
+				</Condition>
+				<SuitName>qixingzhen</SuitName>
+				<V>3</V>
+			</li>
+		</Suit>
+	</Def>
+	
+	<Def Name="qixing_4" DisplayName="玉衡" Main="0" Base="0">	
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv3_Zao" Pos="0"/>
+			<li SlotName="Lv3_Hua" Pos="5"/>
+		</Slot>	
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<GongLevelNeed>God</GongLevelNeed>
+						<EsotericaNeed>Gong8_Esoterica_7</EsotericaNeed>
+						<SkillNeed Type="Fabao" Level="25"/>
+						<EquipmentNeed>Item_MiBao_YuHeng</EquipmentNeed>
+					</li>
+				</Condition>
+				<SuitName>qixingzhen</SuitName>
+				<V>4</V>
+			</li>
+		</Suit>
+	</Def>
+	
+	<Def Name="qixing_5" DisplayName="开阳" Main="0" Base="0">	
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv3_Zao" Pos="2"/>
+			<li SlotName="Lv3_Zhong" Pos="4"/>
+		</Slot>	
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<GongLevelNeed>God</GongLevelNeed>
+						<EsotericaNeed>Gong8_Esoterica_8</EsotericaNeed>
+						<SkillNeed Type="Fabao" Level="25"/>
+						<EquipmentNeed>Item_MiBao_KaiYang</EquipmentNeed>
+					</li>
+				</Condition>
+				<SuitName>qixingzhen</SuitName>
+				<V>5</V>
+			</li>
+		</Suit>
+	</Def>
+	
+	<Def Name="qixing_6" DisplayName="摇光" Main="0" Base="0">	
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv3_Zhong" Pos="0"/>
+		</Slot>	
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<GongLevelNeed>God</GongLevelNeed>
+						<EsotericaNeed>Gong8_Esoterica_9</EsotericaNeed>
+						<SkillNeed Type="Fabao" Level="25"/>
+						<EquipmentNeed>Item_MiBao_YaoGuang</EquipmentNeed>
+					</li>
+				</Condition>
+				<SuitName>qixingzhen</SuitName>
+				<V>6</V>
+			</li>
+		</Suit>
+	</Def>
+	
+	
+	
+	<Def Name="wufang_0" DisplayName="天地五方灵枢" Main="1" Base="0">
+		<SlotSuits>
+			<li>SlotSuit_SpZhen_3</li>
+		</SlotSuits>
+		
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv3_Zhong" Pos="0"/>
+			<li SlotName="Lv3_Hua" Pos="1"/>
+			<li SlotName="Lv3_Yue" Pos="2"/>
+			<li SlotName="Lv3_Yin" Pos="3"/>
+			<li SlotName="Lv3_Yang" Pos="4"/>
+		</Slot>
+		
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<GongLevelNeed>God2</GongLevelNeed>
+						<MaxLingNeed>640000</MaxLingNeed>
+						<SkillNeed Type="Barrier" Level="30"/>
+						<EquipmentNeed>Item_MiBao_TianDiWuFangZhenTu</EquipmentNeed>
+					</li>
+				</Condition>
+				<SuitName>wufangbumiezhen</SuitName>
+				<V>0</V>
+			</li>
+		</Suit>
+	</Def>
+	<Def Name="wufang_1" DisplayName="素色云界" Main="0" Base="0">		
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv3_Yue" Pos="0"/>
+			<li SlotName="Lv3_Yang" Pos="1"/>
+		</Slot>
+		
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<GongLevelNeed>God</GongLevelNeed>
+						<MaxLingNeed>640000</MaxLingNeed>
+						<SkillNeed Type="Barrier" Level="20"/>
+						<GongNeed GongKind="Tu"/>
+						<EquipmentNeed>Item_MiBao_JinFabao</EquipmentNeed>
+					</li>
+				</Condition>
+				<SuitName>wufangbumiezhen</SuitName>
+				<V>1</V>
+			</li>
+		</Suit>
+	</Def>
+	<Def Name="wufang_2" DisplayName="青莲宝色" Main="0" Base="0">		
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv3_Ri" Pos="0"/>
+			<li SlotName="Lv3_Hua" Pos="1"/>
+			<li SlotName="Lv3_Yue" Pos="2"/>
+		</Slot>
+		
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<GongLevelNeed>God</GongLevelNeed>
+						<MaxLingNeed>640000</MaxLingNeed>
+						<SkillNeed Type="Barrier" Level="20"/>
+						<GongNeed GongKind="Shui"/>
+						<EquipmentNeed>Item_MiBao_MuFabao</EquipmentNeed>
+					</li>
+				</Condition>
+				<SuitName>wufangbumiezhen</SuitName>
+				<V>2</V>
+			</li>
+		</Suit>
+	</Def>
+	<Def Name="wufang_3" DisplayName="真武皂雕" Main="0" Base="0">		
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv3_Ri" Pos="0"/>
+			<li SlotName="Lv3_Yin" Pos="1"/>
+			<li SlotName="Lv3_Yue" Pos="2"/>
+		</Slot>
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<GongLevelNeed>God</GongLevelNeed>
+						<MaxLingNeed>640000</MaxLingNeed>
+						<SkillNeed Type="Barrier" Level="20"/>
+						<GongNeed GongKind="Jin"/>
+						<EquipmentNeed>Item_MiBao_ShuiFabao</EquipmentNeed>
+					</li>
+				</Condition>
+				<SuitName>wufangbumiezhen</SuitName>
+				<V>3</V>
+			</li>
+		</Suit>
+	</Def>
+	<Def Name="wufang_4" DisplayName="离地焰光" Main="0" Base="0">	
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv3_Yue" Pos="1"/>
+			<li SlotName="Lv3_Ri" Pos="2"/>
+		</Slot>	
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<GongLevelNeed>God</GongLevelNeed>
+						<MaxLingNeed>640000</MaxLingNeed>
+						<SkillNeed Type="Barrier" Level="20"/>
+						<GongNeed GongKind="Mu"/>
+						<EquipmentNeed>Item_MiBao_HuoFabao</EquipmentNeed>
+					</li>
+				</Condition>
+				<SuitName>wufangbumiezhen</SuitName>
+				<V>4</V>
+			</li>
+		</Suit>
+	</Def>
+	
+	<Def Name="wufang_5" DisplayName="戊己杏黄" Main="0" Base="0">
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv3_Yue" Pos="2"/>
+			<li SlotName="Lv3_Ri" Pos="4"/>
+			<li SlotName="Lv3_Zhong" Pos="5"/>
+		</Slot>
+		
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<GongLevelNeed>God</GongLevelNeed>
+						<MaxLingNeed>640000</MaxLingNeed>
+						<SkillNeed Type="Barrier" Level="20"/>
+						<GongNeed GongKind="Huo"/>
+						<EquipmentNeed>Item_MiBao_TuFabao</EquipmentNeed>
+					</li>
+				</Condition>
+				<SuitName>wufangbumiezhen</SuitName>
+				<V>5</V>
+			</li>
+		</Suit>
+	</Def>
+	
+	
+	<Def Name="liuyu_0" DisplayName="玄穹昊天玉皇仪轨" Main="1" Base="0">
+		<SlotSuits>
+			<li>SlotSuit_SpZhen_4</li>
+		</SlotSuits>
+		
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv2_Qian" Pos="2"/>
+			<li SlotName="Lv2_Qian" Pos="4"/>
+		</Slot>
+		
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<SkillNeed Type="Art" Level="20"/>
+					</li>
+					<li>
+						<SkillNeed Type="SocialContact" Level="20"/>
+						<SexNeed>Male</SexNeed>
+						<GongNeed GongKind="None"/>
+						<EquipmentNeed>Item_MiBao_LiuYuZhenTu</EquipmentNeed>
+					</li>
+				</Condition>
+				<SuitName>liuyuzhen</SuitName>
+				<V>0</V>
+			</li>
+		</Suit>
+	</Def>
+	
+	
+	<Def Name="liuyu_1" DisplayName="勾陈上宫天皇仪轨" Main="0" Base="0">	
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv2_Zhen" Pos="2"/>
+			<li SlotName="Lv2_Qian" Pos="4"/>
+		</Slot>	
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<SkillNeed Type="Art" Level="20"/>
+					</li>
+					<li>
+						<SkillNeed Type="SocialContact" Level="20"/>
+						<SexNeed>Male</SexNeed>
+						<GongNeed GongKind="Jin"/>
+					</li>
+				</Condition>
+				<SuitName>liuyuzhen</SuitName>
+				<V>1</V>
+			</li>
+		</Suit>
+	</Def>
+	
+	
+	<Def Name="liuyu_2" DisplayName="北极紫薇太皇仪轨" Main="0" Base="0">	
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv2_Kun" Pos="2"/>
+			<li SlotName="Lv2_Zhen" Pos="4"/>
+		</Slot>	
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<SkillNeed Type="Art" Level="20"/>
+					</li>
+					<li>
+						<SkillNeed Type="SocialContact" Level="20"/>
+						<SexNeed>Male</SexNeed>
+						<GongNeed GongKind="Shui"/>
+					</li>
+				</Condition>
+				<SuitName>liuyuzhen</SuitName>
+				<V>2</V>
+			</li>
+		</Suit>
+	</Def>
+	
+	
+	<Def Name="liuyu_3" DisplayName="东极太乙救苦仪轨" Main="0" Base="0">	
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv2_Qian" Pos="2"/>
+			<li SlotName="Lv2_Xun" Pos="4"/>
+		</Slot>	
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<SkillNeed Type="Art" Level="20"/>
+					</li>
+					<li>
+						<SkillNeed Type="SocialContact" Level="20"/>
+						<SexNeed>Male</SexNeed>
+						<GongNeed GongKind="Mu"/>
+					</li>
+				</Condition>
+				<SuitName>liuyuzhen</SuitName>
+				<V>3</V>
+			</li>
+		</Suit>
+	</Def>
+	
+	
+	<Def Name="liuyu_4" DisplayName="神宵玉清长生仪轨" Main="0" Base="0">	
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv2_Xun" Pos="2"/>
+			<li SlotName="Lv2_Kun" Pos="4"/>
+		</Slot>	
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<SkillNeed Type="Art" Level="20"/>
+					</li>
+					<li>
+						<SkillNeed Type="SocialContact" Level="20"/>
+						<SexNeed>Male</SexNeed>
+						<GongNeed GongKind="Huo"/>
+					</li>
+				</Condition>
+				<SuitName>liuyuzhen</SuitName>
+				<V>4</V>
+			</li>
+		</Suit>
+	</Def>
+	
+	
+	<Def Name="liuyu_5" DisplayName="承天效法后土仪轨" Main="0" Base="0">	
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv2_Kun" Pos="2"/>
+			<li SlotName="Lv2_Kun" Pos="4"/>
+		</Slot>	
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<SkillNeed Type="Art" Level="20"/>
+					</li>
+					<li>
+						<SkillNeed Type="SocialContact" Level="20"/>
+						<SexNeed>Female</SexNeed>
+						<GongNeed GongKind="Tu"/>
+					</li>
+				</Condition>
+				<SuitName>liuyuzhen</SuitName>
+				<V>5</V>
+			</li>
+		</Suit>
+	</Def>
+
+	<Def Name="longxing_0" DisplayName="逆鳞之印" Main="1" Base="0">
+		<SlotSuits>
+			<li>SlotSuit_SpZhen_5</li>
+		</SlotSuits>
+		
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv2_Qian" Pos="2"/>
+			<li SlotName="Lv2_Kun" Pos="4"/>
+		</Slot>
+		
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<GongLevelNeed>God</GongLevelNeed>
+						<SkillNeed Type="FightSkill" Level="25"/>
+						<EquipmentNeed>Item_BossLong_NiLin</EquipmentNeed>
+						<EsotericaNeed>Other_Esoterica_LongDan</EsotericaNeed>
+					</li>
+					<li>
+						<EquipmentNeed>Item_MiBao_LongXingZhenTu</EquipmentNeed>
+					</li>
+				</Condition>
+				<SuitName>longxingzhen</SuitName>
+				<V>0</V>
+			</li>
+		</Suit>
+	</Def>
+	
+	<Def Name="longxing_1" DisplayName="龙角之印" Main="0" Base="0">
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv2_Zhen" Pos="0"/>
+		</Slot>
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<GongLevelNeed>God</GongLevelNeed>
+						<EquipmentNeed>Item_BossLong_Jiao</EquipmentNeed>
+					</li>
+				</Condition>
+				<SuitName>longxingzhen</SuitName>
+				<V>1</V>
+			</li>
+		</Suit>
+	</Def>
+	
+	<Def Name="longxing_2" DisplayName="龙角之印" Main="0" Base="0">
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv2_Zhen" Pos="1"/>
+			<li SlotName="Lv2_Gen" Pos="3"/>
+		</Slot>
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<GongLevelNeed>God</GongLevelNeed>
+						<EquipmentNeed>Item_BossLong_Jiao</EquipmentNeed>
+					</li>
+				</Condition>
+				<SuitName>longxingzhen</SuitName>
+				<V>2</V>
+			</li>
+		</Suit>
+	</Def>
+	
+	<Def Name="longxing_3" DisplayName="龙爪之印" Main="0" Base="0">
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv2_Gen" Pos="2"/>
+			<li SlotName="Lv2_Kan" Pos="4"/>
+		</Slot>
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<EquipmentNeed>Item_BossLong_Zhua</EquipmentNeed>
+					</li>
+				</Condition>
+				<SuitName>longxingzhen</SuitName>
+				<V>3</V>
+			</li>
+		</Suit>
+	</Def>
+	
+	<Def Name="longxing_4" DisplayName="龙爪之印" Main="0" Base="0">
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv2_Kan" Pos="1"/>
+			<li SlotName="Lv2_Qian" Pos="3"/>
+		</Slot>
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<EquipmentNeed>Item_BossLong_Zhua</EquipmentNeed>
+					</li>
+				</Condition>
+				<SuitName>longxingzhen</SuitName>
+				<V>4</V>
+			</li>
+		</Suit>
+	</Def>
+	
+	<Def Name="longxing_5" DisplayName="龙鳞之印" Main="0" Base="0">
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv2_Kun" Pos="1"/>
+			<li SlotName="Lv2_Xun" Pos="3"/>
+		</Slot>
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<EquipmentNeed>Item_BossLong_Lin</EquipmentNeed>
+					</li>
+				</Condition>
+				<SuitName>longxingzhen</SuitName>
+				<V>5</V>
+			</li>
+		</Suit>
+	</Def>
+	
+	<Def Name="longxing_6" DisplayName="龙爪之印" Main="0" Base="0">
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv2_Xun" Pos="2"/>
+			<li SlotName="Lv2_Li" Pos="4"/>
+		</Slot>
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<EquipmentNeed>Item_BossLong_Zhua</EquipmentNeed>
+					</li>
+				</Condition>
+				<SuitName>longxingzhen</SuitName>
+				<V>6</V>
+			</li>
+		</Suit>
+	</Def>
+	
+	<Def Name="longxing_7" DisplayName="龙爪之印" Main="0" Base="0">
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv2_Li" Pos="1"/>
+			<li SlotName="Lv2_Dui" Pos="3"/>
+		</Slot>
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<EquipmentNeed>Item_BossLong_Zhua</EquipmentNeed>
+					</li>
+				</Condition>
+				<SuitName>longxingzhen</SuitName>
+				<V>7</V>
+			</li>
+		</Suit>
+	</Def>
+	
+	<Def Name="longxing_8" DisplayName="龙尾之印" Main="0" Base="0">
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv2_Dui" Pos="0"/>
+		</Slot>
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<GongLevelNeed>God</GongLevelNeed>
+						<EquipmentNeed>Item_BossLong_Jing</EquipmentNeed>
+					</li>
+				</Condition>
+				<SuitName>longxingzhen</SuitName>
+				<V>8</V>
+			</li>
+		</Suit>
+	</Def>
+	
+	<Def Name="fengjian_0" DisplayName="真焱之御" Main="1" Base="0">
+		<SlotSuits>
+			<li>SlotSuit_SpZhen_6</li>
+		</SlotSuits>
+		
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv2_Qian" Pos="0"/>
+			<li SlotName="Lv2_Xun" Pos="1"/>
+			<li SlotName="Lv2_Xun" Pos="3"/>
+			<li SlotName="Lv2_Kun" Pos="5"/>
+		</Slot>
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<GongLevelNeed>God</GongLevelNeed>
+						<SkillNeed Type="Fabao" Level="25"/>
+						<EquipmentNeed>Item_BossFeng_HongYu</EquipmentNeed>
+						<EsotericaNeed>Other_Esoterica_FengDan</EsotericaNeed>
+					</li>
+					<li>
+						<EquipmentNeed>Item_MiBao_FengHunZhenTu</EquipmentNeed>
+					</li>
+				</Condition>
+				<SuitName>fengjianzhen</SuitName>
+				<V>0</V>
+			</li>
+		</Suit>
+	</Def>
+	<Def Name="fengjian_1" DisplayName="烬灭之御" Main="0" Base="0">
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv2_Qian" Pos="0"/>
+		</Slot>
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<GongLevelNeed>God</GongLevelNeed>
+						<EquipmentNeed>Item_BossFeng_TouYu</EquipmentNeed>
+					</li>
+				</Condition>
+				<SuitName>fengjianzhen</SuitName>
+				<V>1</V>
+			</li>
+		</Suit>
+	</Def>
+	<Def Name="fengjian_2" DisplayName="蔽天之御" Main="0" Base="0">
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv2_Kun" Pos="0"/>
+		</Slot>
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<GongLevelNeed>God</GongLevelNeed>
+						<EquipmentNeed>Item_BossFeng_WeiYu</EquipmentNeed>
+					</li>
+				</Condition>
+				<SuitName>fengjianzhen</SuitName>
+				<V>2</V>
+			</li>
+		</Suit>
+	</Def>
+	<Def Name="fengjian_3" DisplayName="玄骨之御" Main="0" Base="0">
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv2_Xun" Pos="2"/>
+			<li SlotName="Lv2_Li" Pos="4"/>
+		</Slot>
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<EquipmentNeed>Item_BossFeng_Gu</EquipmentNeed>
+					</li>
+				</Condition>
+				<SuitName>fengjianzhen</SuitName>
+				<V>3</V>
+			</li>
+		</Suit>
+	</Def>
+	<Def Name="fengjian_4" DisplayName="炽羽之御" Main="0" Base="0">
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv2_Li" Pos="0"/>
+			<li SlotName="Lv2_Li" Pos="2"/>
+		</Slot>
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<EquipmentNeed>Item_BossFeng_GangYu</EquipmentNeed>
+					</li>
+				</Condition>
+				<SuitName>fengjianzhen</SuitName>
+				<V>4</V>
+			</li>
+		</Suit>
+	</Def>
+	<Def Name="fengjian_5" DisplayName="炽羽之御" Main="0" Base="0">
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv2_Li" Pos="0"/>
+		</Slot>
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<EquipmentNeed>Item_BossFeng_GangYu</EquipmentNeed>
+					</li>
+				</Condition>
+				<SuitName>fengjianzhen</SuitName>
+				<V>5</V>
+			</li>
+		</Suit>
+	</Def>
+	<Def Name="fengjian_6" DisplayName="玄骨之御" Main="0" Base="0">
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv2_Xun" Pos="1"/>
+			<li SlotName="Lv2_Li" Pos="3"/>
+		</Slot>
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<EquipmentNeed>Item_BossFeng_Gu</EquipmentNeed>
+					</li>
+				</Condition>
+				<SuitName>fengjianzhen</SuitName>
+				<V>6</V>
+			</li>
+		</Suit>
+	</Def>
+	<Def Name="fengjian_7" DisplayName="炽羽之御" Main="0" Base="0">
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv2_Li" Pos="0"/>
+			<li SlotName="Lv2_Li" Pos="2"/>
+		</Slot>
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<EquipmentNeed>Item_BossFeng_GangYu</EquipmentNeed>
+					</li>
+				</Condition>
+				<SuitName>fengjianzhen</SuitName>
+				<V>7</V>
+			</li>
+		</Suit>
+	</Def>
+	<Def Name="fengjian_8" DisplayName="炽羽之御" Main="0" Base="0">
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv2_Li" Pos="0"/>
+		</Slot>
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<EquipmentNeed>Item_BossFeng_GangYu</EquipmentNeed>
+					</li>
+				</Condition>
+				<SuitName>fengjianzhen</SuitName>
+				<V>8</V>
+			</li>
+		</Suit>
+	</Def>
+	
+	
+	<Def Name="yinyang_0" DisplayName="阴阳混沌天道" Main="1" Base="0">
+		<SlotSuits>
+			<li>SlotSuit_SpZhen_7</li>
+		</SlotSuits>
+		
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv3_Yin" Pos="0"/>
+			<li SlotName="Lv3_Yang" Pos="5"/>
+		</Slot>
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<GongLevelNeed>God</GongLevelNeed>
+						<DaoHangNeed>360</DaoHangNeed>
+						<EsotericaNeed>Other_Esoterica_ZhuLongDan</EsotericaNeed>
+						<EquipmentNeed>Item_BossZhuLong_LongYu</EquipmentNeed>
+					</li>
+                    <li>
+                        <EquipmentNeed>Item_MiBao_YinYangZhenTu</EquipmentNeed>
+                    </li>
+				</Condition>
+				<SuitName>yinyangzhen</SuitName>
+				<V>0</V>
+			</li>
+		</Suit>
+	</Def>
+	<Def Name="yinyang_1" DisplayName="天道之阴律" Main="0" Base="0">
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv3_Yin" Pos="0"/>
+		</Slot>
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<GongLevelNeed>God</GongLevelNeed>
+						<SexNeed>Female</SexNeed>
+						<EquipmentNeed>Item_BossZhuLong_Eye</EquipmentNeed>
+					</li>
+				</Condition>
+				<SuitName>yinyangzhen</SuitName>
+				<V>1</V>
+			</li>
+		</Suit>
+	</Def>
+	<Def Name="yinyang_2" DisplayName="天道之阳律" Main="0" Base="0">
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv3_Yang" Pos="0"/>
+		</Slot>
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<GongLevelNeed>God</GongLevelNeed>
+						<SexNeed>Male</SexNeed>
+						<EquipmentNeed>Item_BossZhuLong_Eye</EquipmentNeed>
+					</li>
+				</Condition>
+				<SuitName>yinyangzhen</SuitName>
+				<V>2</V>
+			</li>
+		</Suit>
+	</Def>
+	
+	<Def Name="sanyin_0" DisplayName="天阴绝道" Main="1" Base="0">
+		<SlotSuits>
+			<li>SlotSuit_SpZhen_8</li>
+		</SlotSuits>
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv3_Yin" Pos="0"/>
+			<li SlotName="Lv3_Yin" Pos="1"/>
+		</Slot>
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<GongLevelNeed>God</GongLevelNeed>
+						<SexNeed>Female</SexNeed>
+						<GongNeed GongKind="Shui"/>
+						<EquipmentNeed>Item_MiBao_SanYinZhenTu</EquipmentNeed>
+					</li>
+				</Condition>
+				<SuitName>sanyinzhen</SuitName>
+				<V>0</V>
+			</li>
+		</Suit>
+	</Def>
+	
+	<Def Name="sanyin_1" DisplayName="地阴绝命" Main="0" Base="0">
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv3_Yin" Pos="0"/>
+			<li SlotName="Lv3_Yin" Pos="1"/>
+		</Slot>
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<GongLevelNeed>God</GongLevelNeed>
+						<SexNeed>Female</SexNeed>
+						<GongNeed GongKind="Shui"/>
+					</li>
+				</Condition>
+				<SuitName>sanyinzhen</SuitName>
+				<V>1</V>
+			</li>
+		</Suit>
+	</Def>
+	
+	<Def Name="sanyin_2" DisplayName="人阴绝运" Main="0" Base="0">
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv3_Yin" Pos="0"/>
+			<li SlotName="Lv3_Yin" Pos="1"/>
+		</Slot>
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<GongLevelNeed>God</GongLevelNeed>
+						<SexNeed>Female</SexNeed>
+						<GongNeed GongKind="Shui"/>
+					</li>
+				</Condition>
+				<SuitName>sanyinzhen</SuitName>
+				<V>2</V>
+			</li>
+		</Suit>
+	</Def>
+	
+	
+	<Def Name="bamen_0" DisplayName="开门" Main="1" Base="0">
+		<SlotSuits>
+			<li>SlotSuit_SpZhen_9</li>
+		</SlotSuits>
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv2_Xun" Pos="0"/>
+			<li SlotName="Lv2_Qian" Pos="2"/>
+			<li SlotName="Lv2_Kun" Pos="4"/>
+			<li SlotName="Lv2_Li" Pos="5"/>
+		</Slot>
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<EquipmentNeed>Item_ParasolWood</EquipmentNeed>
+					</li>
+					<li>
+						<EquipmentNeed>Item_MiBao_BaMenZhenTu</EquipmentNeed>
+						<GongLevelNeed>God</GongLevelNeed>
+						<SkillNeed Type="Fabao" Level="20"/>
+						<GongNeed GongKind="Shui"/>
+					</li>
+				</Condition>
+				<SuitName>bamen_ji</SuitName>
+				<V>0</V>
+			</li>
+		</Suit>
+	</Def>
+	<Def Name="bamen_1" DisplayName="休门" Main="0" Base="0">
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv2_Li" Pos="0"/>
+			<li SlotName="Lv2_Gen" Pos="5"/>
+		</Slot>
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<GongLevelNeed>God</GongLevelNeed>
+						<EquipmentNeed>Item_ParasolWood</EquipmentNeed>
+						<GongNeed GongKind="Shui"/>
+					</li>
+				</Condition>
+				<SuitName>bamen_ji</SuitName>
+				<V>1</V>
+			</li>
+		</Suit>
+	</Def>
+	<Def Name="bamen_2" DisplayName="生门" Main="0" Base="0">
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv2_Gen" Pos="0"/>
+		</Slot>
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<GongLevelNeed>God</GongLevelNeed>
+						<EquipmentNeed>Item_ParasolWood</EquipmentNeed>
+						<GongNeed GongKind="Shui"/>
+					</li>
+				</Condition>
+				<SuitName>bamen_ji</SuitName>
+				<V>2</V>
+			</li>
+		</Suit>
+	</Def>
+	<Def Name="bamen_3" DisplayName="死门" Main="0" Base="0">
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv2_Zhen" Pos="0"/>
+		</Slot>
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<GongLevelNeed>God</GongLevelNeed>
+						<EquipmentNeed>Item_StarEssence</EquipmentNeed>
+						<GongNeed GongKind="Tu"/>
+					</li>
+				</Condition>
+				<SuitName>bamen_xiong</SuitName>
+				<V>0</V>
+			</li>
+		</Suit>
+	</Def>
+	<Def Name="bamen_4" DisplayName="惊门" Main="0" Base="0">
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv2_Zhen" Pos="0"/>
+			<li SlotName="Lv2_Kan" Pos="5"/>
+		</Slot>
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<GongLevelNeed>God</GongLevelNeed>
+						<EquipmentNeed>Item_StarEssence</EquipmentNeed>
+						<GongNeed GongKind="Tu"/>
+					</li>
+				</Condition>
+				<SuitName>bamen_xiong</SuitName>
+				<V>1</V>
+			</li>
+		</Suit>
+	</Def>
+	<Def Name="bamen_5" DisplayName="伤门" Main="0" Base="0">
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv2_Kan" Pos="0"/>
+			<li SlotName="Lv2_Xun" Pos="5"/>
+		</Slot>
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<GongLevelNeed>God</GongLevelNeed>
+						<EquipmentNeed>Item_StarEssence</EquipmentNeed>
+						<GongNeed GongKind="Tu"/>
+
+					</li>
+				</Condition>
+				<SuitName>bamen_xiong</SuitName>
+				<V>2</V>
+			</li>
+		</Suit>
+	</Def>
+	<Def Name="bamen_6" DisplayName="杜门" Main="0" Base="0">
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv2_Qian" Pos="0"/>
+		</Slot>
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<GongLevelNeed>God</GongLevelNeed>
+						<SexNeed>Male</SexNeed>
+						<EquipmentNeed>Item_ThunderAir</EquipmentNeed>
+					</li>
+				</Condition>
+				<SuitName>bamen_zhong</SuitName>
+				<V>0</V>
+			</li>
+		</Suit>
+	</Def>
+	<Def Name="bamen_7" DisplayName="景门" Main="0" Base="0">
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv2_Kun" Pos="0"/>
+		</Slot>
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<GongLevelNeed>God</GongLevelNeed>
+						<SexNeed>Female</SexNeed>
+						<EquipmentNeed>Item_ThunderAir</EquipmentNeed>
+					</li>
+				</Condition>
+				<SuitName>bamen_zhong</SuitName>
+				<V>1</V>
+			</li>
+		</Suit>
+	</Def>
+	
+	<Def Name="jiayimuzhen_0" DisplayName="玄木之干" Main="1" Base="0">
+		<SlotSuits>
+			<li>SlotSuit_SpZhen_10</li>
+		</SlotSuits>
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv2_Qian" Pos="0"/>
+			<li SlotName="Lv3_Ri" Pos="1"/>
+			<li SlotName="Lv3_Yue" Pos="3"/>
+			<li SlotName="Lv2_Kun" Pos="5"/>
+		</Slot>
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<EquipmentNeed>Item_MiBao_ShenMuZhenTu</EquipmentNeed>
+					</li>
+					<li>
+						<SkillNeed Type="Medicine" Level="15"/>
+						<EquipmentNeed>Item_ParasolWood</EquipmentNeed>
+						<GongNeed GongKind="Mu"/>
+					</li>
+				</Condition>
+				<SuitName>jiayimushenzhen</SuitName>
+				<V>3</V>
+			</li>
+		</Suit>
+	</Def>
+	<Def Name="jiayimuzhen_1" DisplayName="玄木之冠" Main="0" Base="0">
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv2_Zhen" Pos="2"/>
+			<li SlotName="Lv2_Xun" Pos="4"/>
+			<li SlotName="Lv2_Qian" Pos="5"/>
+		</Slot>
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<SkillNeed Type="Medicine" Level="15"/>
+						<EquipmentNeed>Item_ParasolWood</EquipmentNeed>
+						<GongNeed GongKind="Mu"/>
+					</li>
+				</Condition>
+				<SuitName>jiayimushenzhen</SuitName>
+				<V>0</V>
+			</li>
+		</Suit>
+	</Def>
+	<Def Name="jiayimuzhen_2" DisplayName="玄木之枝" Main="0" Base="0">
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv2_Xun" Pos="0"/>
+			<li SlotName="Lv3_Yue" Pos="1"/>
+		</Slot>
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<SkillNeed Type="Medicine" Level="15"/>
+						<EquipmentNeed>Item_ParasolWood</EquipmentNeed>
+						<GongNeed GongKind="Mu"/>
+					</li>
+				</Condition>
+				<SuitName>jiayimushenzhen</SuitName>
+				<V>1</V>
+			</li>
+		</Suit>
+	</Def>
+	<Def Name="jiayimuzhen_3" DisplayName="玄木之叶" Main="0" Base="0">
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv3_Ri" Pos="0"/>
+			<li SlotName="Lv2_Zhen" Pos="1"/>
+		</Slot>
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<SkillNeed Type="Medicine" Level="15"/>
+						<EquipmentNeed>Item_ParasolWood</EquipmentNeed>
+						<GongNeed GongKind="Mu"/>
+					</li>
+				</Condition>
+				<SuitName>jiayimushenzhen</SuitName>
+				<V>2</V>
+			</li>
+		</Suit>
+	</Def>
+	<Def Name="jiayimuzhen_4" DisplayName="玄木之根" Main="0" Base="0">
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv2_Kun" Pos="0"/>
+		</Slot>
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<SkillNeed Type="Medicine" Level="15"/>
+						<EquipmentNeed>Item_ParasolWood</EquipmentNeed>
+						<GongNeed GongKind="Mu"/>
+					</li>
+				</Condition>
+				<SuitName>jiayimushenzhen</SuitName>
+				<V>4</V>
+			</li>
+		</Suit>
+	</Def>
+	
+	<Def Name="wushan_0" DisplayName="岱舆之形" Main="1" Base="0">
+		<SlotSuits>
+			<li>SlotSuit_SpZhen_11</li>
+		</SlotSuits>
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv3_Sheng" Pos="1"/>
+			<li SlotName="Lv3_Mie" Pos="2"/>
+			<li SlotName="Lv3_Ri" Pos="3"/>
+			<li SlotName="Lv3_Yue" Pos="4"/>
+		</Slot>
+		
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<EquipmentNeed>Item_MiBao_WuYueZhenTu</EquipmentNeed>
+					</li>
+					<li>
+						<SkillNeed Type="Barrier" Level="15"/>
+						<EquipmentNeed>Item_ExtremeJade</EquipmentNeed>
+						<GongNeed GongKind="Tu"/>
+					</li>
+				</Condition>
+				<SuitName>wuyuezhen</SuitName>
+				<V>0</V>
+			</li>
+		</Suit>
+	</Def>
+	<Def Name="wushan_1" DisplayName="员峤之形" Main="0" Base="0">		
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv3_Ri" Pos="5"/>
+		</Slot>
+		
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<SkillNeed Type="Barrier" Level="15"/>
+						<EquipmentNeed>Item_ExtremeJade</EquipmentNeed>
+						<GongNeed GongKind="Tu"/>
+					</li>
+				</Condition>
+				<SuitName>wuyuezhen</SuitName>
+				<V>1</V>
+			</li>
+		</Suit>
+	</Def>
+	<Def Name="wushan_2" DisplayName="方壶之形" Main="0" Base="0">		
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv3_Yue" Pos="1"/>
+		</Slot>
+		
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<SkillNeed Type="Barrier" Level="15"/>
+						<EquipmentNeed>Item_ExtremeJade</EquipmentNeed>
+						<GongNeed GongKind="Tu"/>
+					</li>
+				</Condition>
+				<SuitName>wuyuezhen</SuitName>
+				<V>2</V>
+			</li>
+		</Suit>
+	</Def>
+	<Def Name="wushan_3" DisplayName="瀛洲之形" Main="0" Base="0">		
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv3_Sheng" Pos="2"/>
+		</Slot>
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<SkillNeed Type="Barrier" Level="15"/>
+						<EquipmentNeed>Item_ExtremeJade</EquipmentNeed>
+						<GongNeed GongKind="Tu"/>
+					</li>
+				</Condition>
+				<SuitName>wuyuezhen</SuitName>
+				<V>3</V>
+			</li>
+		</Suit>
+	</Def>
+	<Def Name="wushan_4" DisplayName="蓬莱之形" Main="0" Base="0">	
+		<Lv>5</Lv>
+		<Slot>
+			<li SlotName="Lv3_Mie" Pos="3"/>
+		</Slot>	
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<SkillNeed Type="Barrier" Level="15"/>
+						<EquipmentNeed>Item_ExtremeJade</EquipmentNeed>
+						<GongNeed GongKind="Tu"/>
+					</li>
+				</Condition>
+				<SuitName>wuyuezhen</SuitName>
+				<V>4</V>
+			</li>
+		</Suit>
+	</Def>
+</List></ZhenNodeDefs>

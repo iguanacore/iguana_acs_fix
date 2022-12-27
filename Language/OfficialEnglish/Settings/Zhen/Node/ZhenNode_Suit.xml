@@ -1,0 +1,202 @@
+<Texts Type="Other">
+	<List>
+		<Text Name="zhuxian_0">
+			<DisplayName>Ragestriker Pillar</DisplayName>
+		</Text>
+		<Text Name="zhuxian_1">
+			<DisplayName>Ragestriker</DisplayName>
+		</Text>
+		<Text Name="zhuxian_2">
+			<DisplayName>Deathbringer</DisplayName>
+		</Text>
+		<Text Name="zhuxian_3">
+			<DisplayName>Endless Fury</DisplayName>
+		</Text>
+		<Text Name="zhuxian_4">
+			<DisplayName>Wrathbringer</DisplayName>
+		</Text>
+		<Text Name="qixing_0">
+			<DisplayName>Megrez</DisplayName>
+		</Text>
+		<Text Name="qixing_1">
+			<DisplayName>Dubhe</DisplayName>
+		</Text>
+		<Text Name="qixing_2">
+			<DisplayName>Merak</DisplayName>
+		</Text>
+		<Text Name="qixing_3">
+			<DisplayName>Phegda</DisplayName>
+		</Text>
+		<Text Name="qixing_4">
+			<DisplayName>Alioth</DisplayName>
+		</Text>
+		<Text Name="qixing_5">
+			<DisplayName>Mizar</DisplayName>
+		</Text>
+		<Text Name="qixing_6">
+			<DisplayName>Alkaid</DisplayName>
+		</Text>
+		<Text Name="wufang_0">
+			<DisplayName>Impregnable Formation Pillar</DisplayName>
+		</Text>
+		<Text Name="wufang_1">
+			<DisplayName>White Cloud</DisplayName>
+		</Text>
+		<Text Name="wufang_2">
+			<DisplayName>Green Lotus</DisplayName>
+		</Text>
+		<Text Name="wufang_3">
+			<DisplayName>Black Vulture</DisplayName>
+		</Text>
+		<Text Name="wufang_4">
+			<DisplayName>Soaring Flame</DisplayName>
+		</Text>
+		<Text Name="wufang_5">
+			<DisplayName>Yellow Apricot</DisplayName>
+		</Text>
+		<Text Name="liuyu_0">
+			<DisplayName>Jade Emperor Formation</DisplayName>
+		</Text>
+		<Text Name="liuyu_1">
+			<DisplayName>Emperor of Polaris Formation</DisplayName>
+		</Text>
+		<Text Name="liuyu_2">
+			<DisplayName>Emperor of North Star Formation</DisplayName>
+		</Text>
+		<Text Name="liuyu_3">
+			<DisplayName>Primordial Unity Formation</DisplayName>
+		</Text>
+		<Text Name="liuyu_4">
+			<DisplayName>Divine Longevity Formation</DisplayName>
+		</Text>
+		<Text Name="liuyu_5">
+			<DisplayName>Emperor of Earth Formation</DisplayName>
+		</Text>
+		<Text Name="longxing_0">
+			<DisplayName>Seal of Forbidden Scale</DisplayName>
+		</Text>
+		<Text Name="longxing_1">
+			<DisplayName>Seal of Dragon Horn</DisplayName>
+		</Text>
+		<Text Name="longxing_2">
+			<DisplayName>Seal of Dragon Horn</DisplayName>
+		</Text>
+		<Text Name="longxing_3">
+			<DisplayName>Seal of Dragon Claw</DisplayName>
+		</Text>
+		<Text Name="longxing_4">
+			<DisplayName>Seal of Dragon Claw</DisplayName>
+		</Text>
+		<Text Name="longxing_5">
+			<DisplayName>Seal of Dragon Scale</DisplayName>
+		</Text>
+		<Text Name="longxing_6">
+			<DisplayName>Seal of Dragon Claw</DisplayName>
+		</Text>
+		<Text Name="longxing_7">
+			<DisplayName>Seal of Dragon Claw</DisplayName>
+		</Text>
+		<Text Name="longxing_8">
+			<DisplayName>Seal of Dragon Tail</DisplayName>
+		</Text>
+		<Text Name="fengjian_0">
+			<DisplayName>Barrier of True Fire</DisplayName>
+		</Text>
+		<Text Name="fengjian_1">
+			<DisplayName>Barrier of Oblivion</DisplayName>
+		</Text>
+		<Text Name="fengjian_2">
+			<DisplayName>Barrier of Mantle</DisplayName>
+		</Text>
+		<Text Name="fengjian_3">
+			<DisplayName>Barrier of Darkbone</DisplayName>
+		</Text>
+		<Text Name="fengjian_4">
+			<DisplayName>Barrier of Blazing Feather</DisplayName>
+		</Text>
+		<Text Name="fengjian_5">
+			<DisplayName>Barrier of Blazing Feather</DisplayName>
+		</Text>
+		<Text Name="fengjian_6">
+			<DisplayName>Barrier of Darkbone</DisplayName>
+		</Text>
+		<Text Name="fengjian_7">
+			<DisplayName>Barrier of Blazing Feather</DisplayName>
+		</Text>
+		<Text Name="fengjian_8">
+			<DisplayName>Barrier of Blazing Feather</DisplayName>
+		</Text>
+		<Text Name="yinyang_0">
+			<DisplayName>Chaotic Creed of Heaven</DisplayName>
+		</Text>
+		<Text Name="yinyang_1">
+			<DisplayName>Law of Yin</DisplayName>
+		</Text>
+		<Text Name="yinyang_2">
+			<DisplayName>Law of Yang</DisplayName>
+		</Text>
+		<Text Name="sanyin_0">
+			<DisplayName>Yin Force of Heaven</DisplayName>
+		</Text>
+		<Text Name="sanyin_1">
+			<DisplayName>Yin Force of Earth</DisplayName>
+		</Text>
+		<Text Name="sanyin_2">
+			<DisplayName>Yin Force of Human</DisplayName>
+		</Text>
+		<Text Name="bamen_0">
+			<DisplayName>Gate of Openness</DisplayName>
+		</Text>
+		<Text Name="bamen_1">
+			<DisplayName>Gate of Rest</DisplayName>
+		</Text>
+		<Text Name="bamen_2">
+			<DisplayName>Gate of Life</DisplayName>
+		</Text>
+		<Text Name="bamen_3">
+			<DisplayName>Gate of Death</DisplayName>
+		</Text>
+		<Text Name="bamen_4">
+			<DisplayName>Gate of Menace</DisplayName>
+		</Text>
+		<Text Name="bamen_5">
+			<DisplayName>Gate of Damage</DisplayName>
+		</Text>
+		<Text Name="bamen_6">
+			<DisplayName>Gate of Seclusion</DisplayName>
+		</Text>
+		<Text Name="bamen_7">
+			<DisplayName>Gate of Beauty</DisplayName>
+		</Text>
+		<Text Name="jiayimuzhen_0">
+			<DisplayName>Spirit Tree Trunk</DisplayName>
+		</Text>
+		<Text Name="jiayimuzhen_1">
+			<DisplayName>Spirit Tree Crown</DisplayName>
+		</Text>
+		<Text Name="jiayimuzhen_2">
+			<DisplayName>Spirit Tree Branch</DisplayName>
+		</Text>
+		<Text Name="jiayimuzhen_3">
+			<DisplayName>Spirit Tree Leaf</DisplayName>
+		</Text>
+		<Text Name="jiayimuzhen_4">
+			<DisplayName>Spirit Tree Root</DisplayName>
+		</Text>
+		<Text Name="wushan_0">
+			<DisplayName>Shape of Emerald Peak</DisplayName>
+		</Text>
+		<Text Name="wushan_1">
+			<DisplayName>Shape of Precipice</DisplayName>
+		</Text>
+		<Text Name="wushan_2">
+			<DisplayName>Shape of Plain Isle</DisplayName>
+		</Text>
+		<Text Name="wushan_3">
+			<DisplayName>Shape of Sanctuary</DisplayName>
+		</Text>
+		<Text Name="wushan_4">
+			<DisplayName>Shape of Paradise</DisplayName>
+		</Text>
+	</List>
+</Texts>
