@@ -1,0 +1,8 @@
+<Texts Type="Thing">
+  <List>
+    <Text Name="Building_WanGuXieFaTan" sParam="Building">
+			<ThingName>Altar of Death</ThingName>
+			<Desc>Iconic scenery of Mt. Hundred Insects, it is said to have embodied secrets regarding the nullification of time and space.</Desc>
+		</Text>
+  </List>
+</Texts>

@@ -1,0 +1,60 @@
+<ThingDefs><List>
+<ThingDef Type="Building" Name="Building_WanGuXieFaTan" Parent="MiracleBase">
+	<TexPath>res\Sprs\building_zhengfatianxia\building_wanguxiefatan01</TexPath>
+	<TexScale>1</TexScale>
+	<Tags>
+		<Tag Name="_WONDER" Level="1"/>
+        <Tag Name="Sitable" Level="1"/>
+		<Tag Name="Practice" Level="20"/>
+	</Tags>
+	<TonglingHair>hairbaiman</TonglingHair>
+	<ThingName>万骨邪法坛</ThingName>	
+	<Desc>百蛮山镇派奇观，传说其中蕴含有时空尽衰之道的奥秘。</Desc>
+	<ElementKind>Mu</ElementKind>
+	<ShadowSize>
+		<x>1</x>
+		<y>1.2</y>
+	</ShadowSize>
+	<ColliderKind>NoPass</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[1,1,5,1,1,1],
+		[1,1,1,1,1,1],
+		[1,1,3,1,1,1],
+		[1,1,1,1,1,1],
+		</Data>
+		<WorkOffset>
+			<li Index="0"  X="0.5" Y="0.5" Z="-3" Ang="181"/>
+		</WorkOffset>
+		<OffsetGroup>
+			<li><x>0</x><y>0</y></li>  <!-- 后 -->
+			<li><x>0</x><y>0</y></li>     <!-- 右 -->
+			<li><x>0.5</x><y>1.4</y></li>     <!-- 前 -->
+			<li><x>0</x><y>0</y></li>     <!-- 左 -->
+		</OffsetGroup>
+	</Collider>
+	<Building>
+		<OwnerCount>1</OwnerCount>
+		<PracticeEffectiveness>2</PracticeEffectiveness>
+		<SnowRenderData>
+			<x>3.3</x>
+			<y>3.95</y>
+			<z>1</z>
+		</SnowRenderData>		
+	</Building>
+	<Element>
+		<Kind>Mu</Kind>
+	</Element>
+	<Ling>
+		<AddionLing>1200</AddionLing>
+		<AddionRadius>3</AddionRadius>
+		<AddionFailing>1</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>0</Absorption>
+		<Accommodate>0</Accommodate>
+	</Ling>
+	</ThingDef>
+</List></ThingDefs>
