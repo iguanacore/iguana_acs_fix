@@ -1,0 +1,6 @@
+ID	Des	Disname
+		
+-1	Empty	Empty
+72	Bestow the artifact with an additional small Qi Shield. (The original will not lose this ability)	Qi Shield: Small
+73	Bestow the artifact with an additional medium Qi Shield. (The original will not lose this ability)	Qi Shield: Medium
+74	Bestow the artifact with an additional large Qi Shield. (The original will not lose this ability)	Qi Shield: Large

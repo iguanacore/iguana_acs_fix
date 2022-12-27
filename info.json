@@ -2,11 +2,11 @@
     "Name":"iguana_acs_fix",
     "DisplayName":"Iguana's Overhaul, fixes",
     "GameVersion":1.24,
-    "Version":0.2,
+    "Version":0.3,
     "Desc": "A mod, consisting of fixes for Amazing Cultivation Simulator, tries to avoid content/functional changes.\n\n[Current fixes]\nListed in the README.MD, available on the repository.",
     "Author":"iguana",
 	"Tags":[
 		"Function"
 	],
-	"IncreasedDesc":"\n0.2: Implemented Altar of Death Fix\n0.1: Implemented Daemonia Wonder Bugfix\n0.0: Initial Release"
+	"IncreasedDesc":"\n0.3: Implemented Qi Barrier Attachment Fix\n0.2: Implemented Altar of Death Fix\n0.1: Implemented Daemonia Wonder Bugfix\n0.0: Initial Release"
 }
