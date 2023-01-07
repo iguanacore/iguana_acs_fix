@@ -50,5 +50,5 @@ For example, removing the Ancient Formation Condition fix requires the removal o
 ### Other files
 
 * Settings\Practice\FabaoHelian\FabaoHelian.txt - For Qi Barrier Attachment Fix, utilizes ID's 72,73,74
-* Settings\Esoterica\EsotericaLables.txt - For Unorthodox Manual Fix, utilizes ID's 2000-2005
+* Settings\Esoterica\EsotericaLables.txt - For Unorthodox Manual Fix, uses the entire OfficialEnglish file
 * Settings\Zhen\Node\ZhenNode_Suit.xml - For Ancient Formations Condition fix, nearly all entities changed

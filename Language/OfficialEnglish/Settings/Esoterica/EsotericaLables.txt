@@ -1,9 +1,47 @@
 ID	Desc	MidName
 ID	Description	中间词缀 参与名字随机
-
+1	Increases Artifact Power.	Obliterating
+2	Increases Artifact's Qi Recovery Rate	Storing Spirit
+3	Increases Artifact Attack Speed	Swift Strike
+4	Increases Artifact Durability	Hybrid
+5	Increases Artifact Impact	Gigantic Pressure
+6	Increases Artifact Speed	Apparition
+7	Increases Artifact Agility	Round Turn
+8	Increases Artifact's Resistance to Impact	Earthbound
+9	Increases Artifact Trail Length	Shadow Trail
+		
 2000	Reduces Spell Qi Cost	Blessed Spirit
 2001	Reduces Spell Cast Delay	Cursed Spirit
 2002	Increases Spell Power	Heavenly Debacle
 2003	Reduces Spell Qi Cost	Blessed Spirit
 2004	Learn Combat Skill:	Spell Chant
 2005	Reduces Spell Cooldown	Urgent Chant
+		
+		
+3001	Increases Base Shield Value	Foundation Laying
+3002	Increases Shield Defense	Ironclad
+		
+4001	Increases Elixir Concoction Speed	Masterful
+4002	Increases Elixir Concoction Success Rate	Divine Farmer
+4003	Increases Elixir Concoction Yield	Fertile Plain
+		
+5001	Increases Artifact Crafting Speed	Ghost Hand
+5002	Increases Artifact Crafting Success Rate	Treasure Buddha
+5003	Increases Artifact Tier (Crafted)	Jade Polishing
+5004	Increases Artifact Quality (Crafted)	Tempered
+		
+6001	Increases Perception	Divine Sight
+6002	Increases Constitution	Homecoming
+6003	Increases Qi Absorption Efficiency	Fasting
+6004	Increases Stamina Acquisition Rate	Taotie
+6005	Reduces Fatigue Cost	Qi Absorption
+6006	Increases Fatigue Recovery	Whale Bite
+6007	Extends Lifespan	Divine Turtle, Epochs, Eternal
+6008	Increases Pain Endurance	Determination
+6009	Improves Mentality	Tranquility
+		
+7001	Increases Intelligence	Perceptive
+7002	Increases Charisma	Possessed Spirit
+7003	Increases Luck	Divine Blessing
+7004	Reduces Recreation Cost	Buddhist Heart
+7005	Increases Recreation Obtainment	Unifying
