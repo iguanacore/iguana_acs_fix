@@ -1,3 +1,6 @@
 
 *.cache
 source/iguana_acs_fix/.vs/iguana_acs_fix/v16/.suo
+iguana_acs_fix.pdb
+source/iguana_acs_fix/obj/Debug/iguana_acs_fix.csproj.FileListAbsolute.txt
+source/iguana_acs_fix/obj/Debug/iguana_acs_fix.dll

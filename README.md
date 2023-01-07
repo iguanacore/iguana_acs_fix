@@ -8,11 +8,12 @@ A mod, consisting of fixes for Amazing Cultivation Simulator, tries to avoid con
 * Qi Barrier Attachment Fix - A dirty fix, making Qi Barrier Attachments functional
 * Unorthodox Manual Fix - Changes the descriptions for Unorthodox Manuals. Also changes Spell Cooldown Property to a MinValue of -0.5
 * Ancient Formations Condition fix - Implements the faulty conditions for Ancient Formation Nodes. Law Elements, and in some cases, Item requirements.
-
+* Yaoguai Fragment Skill Level fix - Fixes Yaoguai Rebirthing related Skill issue, where Skill Levels aren't what they are supposed to be (not to be mixed up with the rerolling of Skills in general, which is a feature)
 
 ## Install instructions
 
 Download the latest release, extract the iguana_acs_fix into the Mods folder. If the release is behind the Main version and you want to update to the preview version, download the repository directly, and extract the contents of the archive into the iguana_acs_fix folder, located in the Mods folder.
+(Due to the inclusion of Harmony Patches, it's best to stick with the Release.)
 
 Activate the Mod in Mod Manager, make sure to load it after any of the prerequisite Mods.
 
@@ -52,3 +53,7 @@ For example, removing the Ancient Formation Condition fix requires the removal o
 * Settings\Practice\FabaoHelian\FabaoHelian.txt - For Qi Barrier Attachment Fix, utilizes ID's 72,73,74
 * Settings\Esoterica\EsotericaLables.txt - For Unorthodox Manual Fix, uses the entire OfficialEnglish file
 * Settings\Zhen\Node\ZhenNode_Suit.xml - For Ancient Formations Condition fix, nearly all entities changed
+
+### Functions
+
+* XiaWorld.HumanoidEvolutionMgr.ModifyNpcByFrag - For Yaoguai Fragment Skill Level fix, a Postfix, compatible with other Postfixes to the same function
