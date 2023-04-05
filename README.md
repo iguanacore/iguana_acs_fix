@@ -27,6 +27,8 @@ The full list of changed entities can be seen at the bottom. This mod does not g
 
 * ModLoaderLite
 * **iguana_acs_fix**
+* **iguana_acs_functions**
+* **iguana_acs_features**
 * Anything else
 * Alternative Translations
 
