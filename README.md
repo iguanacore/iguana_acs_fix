@@ -11,12 +11,13 @@ A mod, consisting of fixes for Amazing Cultivation Simulator, tries to avoid con
 * Yaoguai Fragment Skill Level fix - Fixes Yaoguai Rebirthing related Skill issue, where Skill Levels aren't what they are supposed to be (not to be mixed up with the rerolling of Skills in general, which is a feature)
 * Fix Max Qi Story - Correct Story_2 and Story_Cold's reversed comparison, which prevents the extra Base Max Qi % outcomes to be triggered during a playthrough.
 * Various translations issues:
-** Level of Stable Mental State -> Mental State Change Speed
-** City adventuring: Purchase Timber -> Purchase Wood
-** City adventuring: Rob Commoners -> Kidnap Commoners
-** Zen Reflection: generating stamina -> consuming stamina
-** Missing category translation for the Bamboo Leftover in the Mini-Universe
-** Spiritwood block -> Spiritwood Timber
+    * Level of Stable Mental State -> Mental State Change Speed
+    * City adventuring: Purchase Timber -> Purchase Wood
+    * City adventuring: Rob Commoners -> Kidnap Commoners
+    * Zen Reflection: generating stamina -> consuming stamina
+    * Missing category translation for the Bamboo Leftover in the Mini-Universe
+    * Spiritwood block -> Spiritwood Timber
+* Fix Event A Different Time - The current event "A Different Time" is corrected to have its designed effect in-game.
 
 ## Install instructions
 
@@ -65,6 +66,8 @@ For example, removing the Ancient Formation Condition fix requires the removal o
 * Settings\Practice\FabaoHelian\FabaoHelian.txt - For Qi Barrier Attachment Fix, utilizes ID's 72,73,74
 * Settings\Esoterica\EsotericaLables.txt - For Unorthodox Manual Fix, uses the entire OfficialEnglish file
 * Settings\Zhen\Node\ZhenNode_Suit.xml - For Ancient Formations Condition fix, nearly all entities changed
+* Scripts\main.lua - main LUA mod loading utility
+* Scripts\fix-event-a-different-time.lua - Related to "Fix Event A Different Time" change
 
 ### Functions
 
@@ -81,4 +84,4 @@ If the fixes exist as a standalone mod, include a link to it.
 
 ## Credits/Contributions
 
-* ucddj - Fix Max Qi Story, some translation issues
+* ucddj - Fix Max Qi Story, some translation issues, Fix Event A Different Time
