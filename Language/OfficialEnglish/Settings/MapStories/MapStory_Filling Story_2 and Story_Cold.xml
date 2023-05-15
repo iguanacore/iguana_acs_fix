@@ -1,0 +1,19 @@
+<Texts Type="Story">
+	<List>
+		<Text Name="Story_2">
+			<DisplayName>The Mortal Realm</DisplayName>
+			<Desc>[NAME] seemed to be destined to come across this scenic spot suffused with natural beauty. Overcome with awe, [IT] sat down right there and didn't know if it would be possible to have an epiphany.</Desc>
+			<Selections.0.Display>Profound Inspiration</Selections.0.Display>
+			<Selections.0.Tip>Intelligence</Selections.0.Tip>
+			<Selections.1.Display>Absorb Qi</Selections.1.Display>
+		</Text>
+				<Text Name="Story_Cold">
+			<DisplayName>Fortuitous Encounter on the Snowfield</DisplayName>
+			<Desc>[NAME] seemed to be destined to come across this scenic spot suffused with natural beauty. Overcome with awe, [IT] sat down right there and didn't know if it would be possible to have an epiphany.</Desc>
+			<Selections.0.Display>Profound Inspiration</Selections.0.Display>
+			<Selections.0.Tip>Intelligence</Selections.0.Tip>
+			<Selections.1.Display>Absorb Qi</Selections.1.Display>
+			<Selections.2.Display>It's too cold.</Selections.2.Display>
+		</Text>
+	</List>
+</Texts>

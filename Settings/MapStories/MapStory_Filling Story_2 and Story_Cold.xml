@@ -1,0 +1,85 @@
+<Stories><List>
+	<Story Name="Story_2"  Parent="Story_Base">
+		<DisplayName>游戏红尘</DisplayName>
+		<RuleKind>FindTreasure</RuleKind>
+		<Desc>[NAME]路遇一处自然造化的绝景，[IT]被突如其来的感动震慑，立刻盘膝坐下，不知道是否会有所感悟。</Desc>
+		<Selections>
+			<li>
+				<Display>参悟玄妙</Display>
+				<RuleType>Bye</RuleType>
+				<Tip>悟性</Tip>
+				<Condition><![CDATA[
+				me:RandomInt(1, 11) <= me:GetIntelligence()
+				]]>
+				</Condition>
+				<OKResult>me:AddMsg(XT("[NAME]在此地打坐一夜，大有所获，修行上的几个困惑不翼而飞。"));me:AddPracticeResource("Stage",me:GetGLevel() * 100)</OKResult>
+				<NOResult>me:AddMsg(XT("[NAME]在此处打坐一夜，始终找不到那一点灵感，最终只能遗憾离去。"));</NOResult>
+			</li>
+			<li>
+				<Display>吸纳灵气</Display>
+				<RuleType>Bye</RuleType>
+				<Condition>
+				<![CDATA[
+				me:GetFlag(28) < 2
+				]]>
+				</Condition>
+				<OKResult>
+				me:AddMsg(XT("[NAME]在此处打坐一夜，第二天醒来竟然发现全身灵气都已恢复，甚至还比以前更雄厚了"));me:SetFlag(28,(me:GetFlag(28) + 1));me:AddModifier("Story_LingMax1");me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"))
+				</OKResult>
+				<NOResult>me:AddMsg(XT("[NAME]在此处打坐一夜，第二天醒来竟然发现全身灵气都已恢复"));me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"))</NOResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="Story_Cold"  Parent="Story_Base">
+		<DisplayName>雪原奇遇</DisplayName>
+		<RuleKind>FindTreasure</RuleKind>
+		<Desc>[NAME]路遇一处自然造化的绝景，[IT]被突如其来的感动震慑，立刻盘膝坐下，不知道是否会有所感悟。</Desc>
+		<Kind>Story_Cold</Kind>
+		<Selections>
+			<li>
+				<Display>参悟玄妙</Display>
+				<RuleType>Bye</RuleType>
+				<Tip>悟性</Tip>
+				<Condition><![CDATA[
+				me:RandomInt(1, 11) <= me:GetIntelligence()
+				]]>
+				</Condition>
+				<DisplayCondition><![CDATA[
+				me:GetProperty("ToleranceTMin") <= -80
+				]]>
+				</DisplayCondition>
+				<OKResult>me:AddMsg(XT("[NAME]在此地打坐一夜，大有所获，修行上的几个困惑不翼而飞。"));me:AddPracticeResource("Stage",me:GetGLevel() * 100)</OKResult>
+				<NOResult>me:AddMsg(XT("[NAME]在此处打坐一夜，始终找不到那一点灵感，最终只能遗憾离去。"));</NOResult>
+			</li>
+			<li>
+				<Display>吸纳灵气</Display>
+				<RuleType>Bye</RuleType>
+				<Condition>
+				<![CDATA[
+				me:GetFlag(28) < 2
+				]]>
+				</Condition>
+				<DisplayCondition><![CDATA[
+				me:GetProperty("ToleranceTMin") <= -80
+				]]>
+				</DisplayCondition>
+				<OKResult>
+				me:AddMsg(XT("[NAME]在此处打坐一夜，第二天醒来竟然发现全身灵气都已恢复，甚至还比以前更雄厚了"));me:SetFlag(28,(me:GetFlag(28) + 1));me:AddModifier("Story_LingMax1");me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"))
+				</OKResult>
+				<NOResult>me:AddMsg(XT("[NAME]在此处打坐一夜，第二天醒来竟然发现全身灵气都已恢复"));me:AddPracticeResource("Ling",me:GetProperty("NpcLingMaxValue"))</NOResult>
+			</li>
+			<li>
+				<Display>太冷了</Display>
+				<RuleType>Bye</RuleType>
+				<DisplayCondition><![CDATA[
+				me:GetProperty("ToleranceTMin") > -80
+				]]>
+				</DisplayCondition>
+				<OKResult><![CDATA[
+				me:AddMsg(XT("这里实在太冷了，[NAME]尝试打坐却被彻骨寒意冻得无法入定，只能无奈离开。"));
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+</List></Stories>
