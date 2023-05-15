@@ -41,7 +41,8 @@ For example, removing the Ancient Formation Condition fix requires the removal o
 
 ### MapStories
 
-* SystemLearnGreateBuilding - For Daemonia Wonder Fix
+* (MapStory_System) SystemLearnGreateBuilding - For Daemonia Wonder Fix
+* (MapStory_FillingLv1) Story_2 and Story_Cold - "Fix Max Qi Story" related
 
 ### Buildings
 
@@ -56,8 +57,20 @@ For example, removing the Ancient Formation Condition fix requires the removal o
 * Settings\Practice\FabaoHelian\FabaoHelian.txt - For Qi Barrier Attachment Fix, utilizes ID's 72,73,74
 * Settings\Esoterica\EsotericaLables.txt - For Unorthodox Manual Fix, uses the entire OfficialEnglish file
 * Settings\Zhen\Node\ZhenNode_Suit.xml - For Ancient Formations Condition fix, nearly all entities changed
-* Settings\MapStories\Corrected Story_2 and Story_Cold.xml - "Fix Max Qi Story" related
 
 ### Functions
 
 * XiaWorld.HumanoidEvolutionMgr.ModifyNpcByFrag - For Yaoguai Fragment Skill Level fix, a Postfix, compatible with other Postfixes to the same function
+
+## How to Contribute
+
+Any Issues/Pull Requests are welcome. To ensure a similar level of quality between all parts of the mod, here's a few guidelines.
+
+When changing vanilla aspects, keep in line with the original naming logic.
+* If the original was MapStory_Item.xml, the PR should use the same filename with MapStory_Item.xml.
+
+If the fixes exist as a standalone mod, include a link to it.
+
+## Credits/Contributions
+
+* ucddj - Fix Max Qi Story
