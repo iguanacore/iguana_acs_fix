@@ -10,6 +10,13 @@ A mod, consisting of fixes for Amazing Cultivation Simulator, tries to avoid con
 * Ancient Formations Condition fix - Implements the faulty conditions for Ancient Formation Nodes. Law Elements, and in some cases, Item requirements.
 * Yaoguai Fragment Skill Level fix - Fixes Yaoguai Rebirthing related Skill issue, where Skill Levels aren't what they are supposed to be (not to be mixed up with the rerolling of Skills in general, which is a feature)
 * Fix Max Qi Story - Correct Story_2 and Story_Cold's reversed comparison, which prevents the extra Base Max Qi % outcomes to be triggered during a playthrough.
+* Various translations issues:
+** Level of Stable Mental State -> Mental State Change Speed
+** City adventuring: Purchase Timber -> Purchase Wood
+** City adventuring: Rob Commoners -> Kidnap Commoners
+** Zen Reflection: generating stamina -> consuming stamina
+** Missing category translation for the Bamboo Leftover in the Mini-Universe
+** Spiritwood block -> Spiritwood Timber
 
 ## Install instructions
 
@@ -35,14 +42,15 @@ The full list of changed entities can be seen at the bottom. This mod does not g
 
 ## List of changed entities
 
-Below is a list of changed entities. To revert a particular change from the mod, either comment out the relevant lines and entities, or delete the files in question.
+Below is a list of changed entities. To revert a particular change from the mod, either comment out the relevant lines and entities, or delete the files in question. Changed files in the Language\OfficialEnglish directory are related to translation and can be reverted by removing them.
 
 For example, removing the Ancient Formation Condition fix requires the removal of iguana_acs_fix\Settings\Zhen\Node\ZhenNode_Suit.xml, as well as the corresponding file under Language\OfficialEnglish.
+
 
 ### MapStories
 
 * (MapStory_System) SystemLearnGreateBuilding - For Daemonia Wonder Fix
-* (MapStory_FillingLv1) Story_2 and Story_Cold - "Fix Max Qi Story" related
+* (MapStory_FillingLv1)Story_2 and Story_Cold - "Fix Max Qi Story" related
 
 ### Buildings
 
@@ -73,4 +81,4 @@ If the fixes exist as a standalone mod, include a link to it.
 
 ## Credits/Contributions
 
-* ucddj - Fix Max Qi Story
+* ucddj - Fix Max Qi Story, some translation issues
