@@ -1,0 +1,9 @@
+<Texts Type="Thing">
+	<List>
+		<Text Name="Item_LingWoodBlock" sParam="Item">
+			<ThingName>Spiritwood Timber</ThingName>
+			<Desc>Timber material made from Spiritwood. Can be used more effectively in crafting.</Desc>
+			<Item.BeMaterial.NamePrefix>Spiritwood</Item.BeMaterial.NamePrefix>
+		</Text>
+    </List>
+</Texts>
