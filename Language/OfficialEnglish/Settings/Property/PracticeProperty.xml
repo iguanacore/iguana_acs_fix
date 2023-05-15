@@ -1,0 +1,8 @@
+<Texts Type="Other">
+	<List>
+		<Text Name="SpeedOfMindStateCoefficient">
+			<DisplayName>Mental State Change Speed</DisplayName>
+			<Desc>Speed at which the metal state of inner disciples change.</Desc>
+		</Text>
+    </List>
+</Texts>
