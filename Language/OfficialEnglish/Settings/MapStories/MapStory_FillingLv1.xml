@@ -1,0 +1,13 @@
+<Texts Type="Story">
+	<List>
+		<Text Name="Business_Base">
+			<DisplayName>Purchase Materials</DisplayName>
+			<Desc>[NAME] discovered that this place had a developed market with low prices and so decided to pick things up before heading back.</Desc>
+			<Selections.0.Display>Purchase Food</Selections.0.Display>
+			<Selections.1.Display>Purchase Marble</Selections.1.Display>
+			<Selections.2.Display>Purchase Wood</Selections.2.Display>
+			<Selections.3.Display>Purchase Iron Ore</Selections.3.Display>
+			<Selections.4.Display>Purchase Cotton</Selections.4.Display>
+		</Text>
+    </List>
+</Texts>
