@@ -11,12 +11,12 @@ A mod, consisting of fixes for Amazing Cultivation Simulator, tries to avoid con
 * Yaoguai Fragment Skill Level fix - Fixes Yaoguai Rebirthing related Skill issue, where Skill Levels aren't what they are supposed to be (not to be mixed up with the rerolling of Skills in general, which is a feature)
 * Fix Max Qi Story - Correct Story_2 and Story_Cold's reversed comparison, which prevents the extra Base Max Qi % outcomes to be triggered during a playthrough.
 * Various translations issues:
-** Level of Stable Mental State -> Mental State Change Speed
-** City adventuring: Purchase Timber -> Purchase Wood
-** City adventuring: Rob Commoners -> Kidnap Commoners
-** Zen Reflection: generating stamina -> consuming stamina
-** Missing category translation for the Bamboo Leftover in the Mini-Universe
-** Spiritwood block -> Spiritwood Timber
+    * Level of Stable Mental State -> Mental State Change Speed
+    * City adventuring: Purchase Timber -> Purchase Wood
+    * City adventuring: Rob Commoners -> Kidnap Commoners
+    * Zen Reflection: generating stamina -> consuming stamina
+    * Missing category translation for the Bamboo Leftover in the Mini-Universe
+    * Spiritwood block -> Spiritwood Timber
 * Fix Event A Different Time - The current event "A Different Time" is corrected to have its designed effect in-game.
 
 ## Install instructions
