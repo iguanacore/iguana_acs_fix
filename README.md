@@ -50,7 +50,7 @@ For example, removing the Ancient Formation Condition fix requires the removal o
 ### MapStories
 
 * (MapStory_System) SystemLearnGreateBuilding - For Daemonia Wonder Fix
-* (MapStory_FillingLv1)Story_2 and Story_Cold - "Fix Max Qi Story" related
+* (MapStory_FillingLv1) Story_2 and Story_Cold - "Fix Max Qi Story" related
 
 ### Buildings
 
