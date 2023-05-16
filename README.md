@@ -62,6 +62,10 @@ For example, removing the Ancient Formation Condition fix requires the removal o
 
 * NpcFight_SpellCoolDownAddP - For Unorthodox Manual Fix (Spell Cooldown)
 
+### Features
+
+* Craftsman - Fix Craftsman trait Alchemy bonuses
+
 ### Other files
 
 * Settings\Practice\FabaoHelian\FabaoHelian.txt - For Qi Barrier Attachment Fix, utilizes ID's 72,73,74
