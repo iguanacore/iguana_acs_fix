@@ -19,6 +19,7 @@ A mod, consisting of fixes for Amazing Cultivation Simulator, tries to avoid con
     * Spiritwood block -> Spiritwood Timber
 * Fix Event A Different Time - The current event "A Different Time" is corrected to have its designed effect in-game.
 * Fix Craftsman trait Alchemy bonuses - They weren't working as intended.
+* Fix Female Fei Constitution - for some base age range the Female Fei has a weirdly high baser values.
 
 ## Install instructions
 
@@ -48,7 +49,6 @@ Below is a list of changed entities. To revert a particular change from the mod,
 
 For example, removing the Ancient Formation Condition fix requires the removal of iguana_acs_fix\Settings\Zhen\Node\ZhenNode_Suit.xml, as well as the corresponding file under Language\OfficialEnglish.
 
-
 ### MapStories
 
 * (MapStory_System) SystemLearnGreateBuilding - For Daemonia Wonder Fix
@@ -65,6 +65,10 @@ For example, removing the Ancient Formation Condition fix requires the removal o
 ### Features
 
 * Craftsman - Fix Craftsman trait Alchemy bonuses
+
+### Npc
+
+* Fei - Fix Female Fei Constitution
 
 ### Other files
 

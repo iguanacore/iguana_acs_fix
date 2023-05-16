@@ -1,0 +1,93 @@
+<RaceDefs><List>
+<RaceDef Name="Fei">
+	<DisplayName>蜚</DisplayName>
+	<Desc>普通的异兽：蜚</Desc>
+	<Mod>Mod/Npc/Fei/Base</Mod>
+	<Template>Npc_Fei</Template>
+	<RaceType>Animal</RaceType>
+	<MaleName></MaleName>
+	<FemaleName></FemaleName>
+	<NormalAttack>Fei_NormalAttack</NormalAttack>
+	<Body>QuadrupedBody</Body>
+	<FreeLength>2.667</FreeLength>
+	<HasGenders>0</HasGenders>
+	<HasEquip>0</HasEquip>
+	<GenerateMinAge>0.5</GenerateMinAge>
+	<GenerateMaxAge>12</GenerateMaxAge>
+	<AdultAge>5</AdultAge>
+	<StrikeBack>1</StrikeBack>
+	<WarningRange>4</WarningRange>
+	<IllustratedHandLabel>Animal</IllustratedHandLabel>
+	<TexPath>tex://res/Sprs/tujian/TJ_fei01</TexPath>
+	<Rolepaint>res/Sprs/tujian/TJ_fei01</Rolepaint>
+	<HorseData>
+		<Mod>Mod/Npc/Fei/Base</Mod>
+		<RideBip>Bip001 Spine1</RideBip>
+		<Scale>1</Scale>
+		<OffsetX>0</OffsetX>
+		<OffsetY>-0.1</OffsetY>
+		<OffsetZ>0</OffsetZ>
+	</HorseData>
+	<BreedingLikeTame>
+		<li>TameLing</li>
+	</BreedingLikeTame>
+	<Products>
+		<li>
+			<ProductTime>33600</ProductTime>			
+			<ProductItems>
+				<li>
+					<ThingDef>Item_SoulPearl</ThingDef>
+					<Count>1</Count>
+					<Rate>0.2</Rate>
+				</li>
+			</ProductItems>
+		</li>
+	</Products> 
+	<RacePregnant>
+		<PregnantTime>67200</PregnantTime>
+		<PregnantInterval>134400</PregnantInterval>
+		<PregnantRate>0.005</PregnantRate>
+		<MinBirthCount>1</MinBirthCount>
+		<MaxBirthCount>1</MaxBirthCount>
+		<PregnantItem></PregnantItem>
+	</RacePregnant>
+	
+	<SlaughterItems>
+		<li>
+			<ThingDef>Item_SoulPearl</ThingDef>
+			<Count>1</Count>
+			<Rate>0.5</Rate>
+		</li>
+		<li>
+			<ThingDef>Item_MonsterBlood</ThingDef>
+			<Count>11</Count>
+			<Rate>1</Rate>
+		</li>
+		<li>
+			<ThingDef>Item_FeiLeather</ThingDef>
+			<Count>94</Count>
+			<Rate>1</Rate>
+		</li>
+	</SlaughterItems>
+	<BaseFive>
+		<li Sex="Male" 	 AgeMin="0" 	AgeMax="2"	>2,2,1,1,2</li> 
+		<li Sex="Male" 	 AgeMin="3" 	AgeMax="9"	>5,6,1,3,2</li> 
+		<li Sex="Male" 	 AgeMin="10" 	AgeMax="12"	>4,9,1,4,2</li> 
+		<li Sex="Female" 	 AgeMin="0" 	AgeMax="2"	>2,2,1,1,2</li> 
+		<li Sex="Female" 	 AgeMin="3" 	AgeMax="9"	>5,6,1,3,2</li> 
+		<li Sex="Female" 	 AgeMin="10" 	AgeMax="12"	>4,9,1,4,2</li> 
+	</BaseFive>
+	<BaseP>
+		<li Name="RaceMaxAge" Value="MammalMaxAge_15"/>
+		<li Name="RaceMoveSpeed" Value="MammalMoveSpeed"/>
+		<li Name="RaceMaxHp" Value="MammalMaxHp"/>
+		<li Name="RaceComfyTMin" Value="MammalComfyTMin"/>
+		<li Name="RaceComfyTMax" Value="MammalComfyTMax"/>
+		<li Name="RaceToleranceTMin" Value="MammalToleranceTMin"/>
+		<li Name="RaceToleranceTMax" Value="MammalToleranceTMax"/>
+		<li Name="RaceVisionRadius" Value="MammalVisionRadius"/>
+		<li Name="RaceBaseWorkSpeed" Value="MammalBaseWorkSpeed"/>
+		<li Name="RaceRecoveryPower" Value="MammalRecoveryPower"/>
+	</BaseP>
+</RaceDef>
+</List></RaceDefs>
