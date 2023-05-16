@@ -1,0 +1,9 @@
+<Texts Type="Thing">
+	<List>
+		<Text Name="Item_Ginkgo" sParam="Item">
+			<ThingName>Ginkgo Fruit</ThingName>
+			<Desc>The fruit of a Ginkgo tree, it can be made into various tranquilizing medicines.</Desc>
+			<Item.FabaoSuffix>Fruit, Bead, Bolus, Ball, Dome</Item.FabaoSuffix>
+		</Text>
+	</List>
+</Texts>
