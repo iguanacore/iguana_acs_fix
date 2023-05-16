@@ -1,0 +1,52 @@
+<ThingDefs><List>
+	<ThingDef Type="Item" Name="Item_Ginkgo" Parent="DrugBase">
+	<ThingName>银杏果</ThingName>
+	<TexPath>res\Sprs\object\object_SomeGinkgobiloba</TexPath>	
+	<Desc>银杏树的果实，可以炼制一些补气安神的药物。</Desc>
+	<Tags>
+		<Tag Name="Tame" Level="12"/>
+		<Tag Name="TameVeg" Level="1"/>
+		<Tag Name="Food" Level="2"/>
+		<Tag Name="DiscipleFood" Level="2"/>
+	</Tags>
+	<MaxHitPoints>500</MaxHitPoints>
+	<Rate>3</Rate>
+	<Beauty>2</Beauty>
+	<ElementKind>Mu</ElementKind>
+	<Flammability>
+		<Flammability>0.4</Flammability>
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+	</Flammability>
+	
+	<IllustratedHandLabel>WOther</IllustratedHandLabel>
+	<Item Lable="Drug">
+		<FabaoSuffix>果,珠,丸,球,罩</FabaoSuffix>
+		<PhysicalLables>
+			<li>Smooth1</li>
+			<li>Light1</li>
+		</PhysicalLables>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>40</Nutrition>	
+			<Poisonousness>0</Poisonousness>
+			<FunAddion>2</FunAddion>
+		</Food>	
+		<BeMaterial>
+			<FlammabilityWhenBeMain>0.4</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>2</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>3</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<Rot>
+			<RotSpeed>0.005</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>0</TempMin>
+			<LingMax>0</LingMax>
+		</Rot>
+	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+		<Radius>1</Radius>
+	</Element>
+	</ThingDef>
+</List></ThingDefs>
