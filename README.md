@@ -18,6 +18,7 @@ A mod, consisting of fixes for Amazing Cultivation Simulator, tries to avoid con
     * Missing category translation for the Bamboo Leftover in the Mini-Universe
     * Spiritwood block -> Spiritwood Timber
 * Fix Event A Different Time - The current event "A Different Time" is corrected to have its designed effect in-game.
+* Fix Craftsman trait Alchemy bonuses - They weren't working as intended.
 * Add Food tag to Ginkgo - allows it to be chosen by your outer disciples as a somewhat last resort food automatically.
 * Fix Female Fei Constitution - for some base age range the Female Fei has a weirdly high baser values.
 
@@ -65,6 +66,10 @@ For example, removing the Ancient Formation Condition fix requires the removal o
 ### Properties
 
 * NpcFight_SpellCoolDownAddP - For Unorthodox Manual Fix (Spell Cooldown)
+
+### Features
+
+* Craftsman - Fix Craftsman trait Alchemy bonuses
 
 ### Npc
 
