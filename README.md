@@ -19,6 +19,7 @@ A mod, consisting of fixes for Amazing Cultivation Simulator, tries to avoid con
     * Spiritwood block -> Spiritwood Timber
 * Fix Event A Different Time - The current event "A Different Time" is corrected to have its designed effect in-game.
 * Fix Craftsman trait Alchemy bonuses - They weren't working as intended.
+* Add Food tag to Ginkgo - allows it to be chosen by your outer disciples as a somewhat last resort food automatically.
 * Fix Female Fei Constitution - for some base age range the Female Fei has a weirdly high baser values.
 
 ## Install instructions
@@ -48,6 +49,10 @@ The full list of changed entities can be seen at the bottom. This mod does not g
 Below is a list of changed entities. To revert a particular change from the mod, either comment out the relevant lines and entities, or delete the files in question. Changed files in the Language\OfficialEnglish directory are related to translation and can be reverted by removing them.
 
 For example, removing the Ancient Formation Condition fix requires the removal of iguana_acs_fix\Settings\Zhen\Node\ZhenNode_Suit.xml, as well as the corresponding file under Language\OfficialEnglish.
+
+### Items
+
+* Item_Ginkgo - Add Food tag to Ginkgo
 
 ### MapStories
 
