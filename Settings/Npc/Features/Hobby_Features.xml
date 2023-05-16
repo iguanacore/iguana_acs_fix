@@ -1,0 +1,25 @@
+<FeatureDefs><List>
+	<Feature Name="Craftsman" Type="Backstory">
+		<DisplayName>手艺人</DisplayName>
+		<Desc>此人擅长动手，[IT]做东西又快又好。</Desc>
+		<ModifierDef>
+			<Properties>
+				<li Name="FabaoMake_QualityAddV" AddV="0.1"/>
+				<li Name="FabaoMake_SpeedAddV" AddV="0.2"/>
+				<li Name="FabaoMake_SuccessRateAddV" AddV="0.2"/>
+				
+				<li Name="DanMake_SpeedAddV" AddV="0.2"/>
+				<li Name="DanMake_SuccessRateAddV" AddV="0.2"/>
+				<li Name="DanMake_YieldAddP" AddV="0.2"/>
+				
+				<li Name="SmithingSpeed" AddP="0.2"/>
+				<li Name="HandworkSpeed" AddP="0.2"/>
+				<li Name="TailoringSpeed" AddP="0.2"/>
+				
+				<li Name="SmithingQualityAddValue" AddV="0.1"/>
+				<li Name="HandworkQualityAddValue" AddV="0.1"/>
+				<li Name="TailoringQualityAddValue" AddV="0.1"/>
+			</Properties>
+		</ModifierDef>
+	</Feature> 
+</List></FeatureDefs>
