@@ -21,6 +21,7 @@ A mod, consisting of fixes for Amazing Cultivation Simulator, tries to avoid con
 * Fix Craftsman trait Alchemy bonuses - They weren't working as intended.
 * Add Food tag to Ginkgo - allows it to be chosen by your outer disciples as a somewhat last resort food automatically.
 * Fix Female Fei Constitution - for some base age range the Female Fei has a weirdly high baser values.
+* Fix Qin Muxue's (Fox pet) Core bonus at the Learning growth stage
 
 ## Install instructions
 
@@ -66,6 +67,10 @@ For example, removing the Ancient Formation Condition fix requires the removal o
 ### Properties
 
 * NpcFight_SpellCoolDownAddP - For Unorthodox Manual Fix (Spell Cooldown)
+
+### LingShou (Pets)
+
+* property GrowPercent - Fix Qin Muxue's Core stat
 
 ### Features
 
