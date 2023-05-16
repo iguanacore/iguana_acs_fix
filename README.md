@@ -24,8 +24,9 @@ A mod, consisting of fixes for Amazing Cultivation Simulator, tries to avoid con
 * Fix Treasure Hunt for Red Ginseng using Mining Skill instead of Farming
 * Fix Qin Muxue's (Fox pet) Core bonus at the Learning growth stage
 * Fix Rabbit Yaoguai's adventure fly speed bonus - wasn't working as intended. A basic change, not a full rework.
-* Fix the Max Qi value of Miao (turtle), Xianxian and Xiuxiu (pandas) for people not playing with the "Loose Core" Immortal Tribulation.
+* Fix the Max Qi value of Miao (turtle pet), Xianxian and Xiuxiu (panda pets) for people not playing with the "Loose Core" Immortal Tribulation.
 * Greedy Personality Heart Unlockable - Changes the gifting related threshold from 70 to 60, meaning attainable before Heart Guard has been unlocked.
+* Fix the Artifact Power Bonus for  Xianxian and Xiuxiu (panda pets)
 
 ## Install instructions
 
@@ -72,6 +73,7 @@ For example, removing the Ancient Formation Condition fix requires the removal o
 
 * NpcFight_SpellCoolDownAddP - For Unorthodox Manual Fix (Spell Cooldown)
 * LsPandaLingMaxValue (LsProperty_LsPanda) - DLC Pets Max Qi fix
+* LsPandaFabaoPowerAddP (LsProperty_LsPanda) - DLC Panda pets Artifact Power Bonus fix
 * LsXuanWuLingMaxValue (LsProperty_DLC_WuDang) - DLC Pets Max Qi fix
 
 ### LingShou (Pets)

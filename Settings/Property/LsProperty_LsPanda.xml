@@ -1,4 +1,19 @@
 <Properties><List>
+	<Property Name="LsPandaFabaoPowerAddP">
+		<MathProperty>
+			<VarDef>
+				<li>
+					<Variable>x</Variable>
+					<Value>
+						<SpecialValue>SFabao</SpecialValue>
+					</Value>
+				</li>
+			</VarDef>
+			<Value>
+				<Expression>(36*LingShouNeiDan/200+36*LingShouNeiDan/200*(0-LsBadGood)/5)*(1-x)/2</Expression>
+			</Value>
+		</MathProperty>
+	</Property>
 	<Property Name="LsPandaLingMaxValue">
 		<MathProperty>
 			<VarDef>
