@@ -29,6 +29,7 @@ function test_RedGinsengTreasureHuntFix()
     local tbTable = GameMain:GetMod("MapStoryHelper")
     local numAdded = 0
     local itemAdded = ""
+    local messageSent = ""
     local AddIntoStorage = function (self,item, count)
         numAdded = count
         itemAdded = item
@@ -36,7 +37,9 @@ function test_RedGinsengTreasureHuntFix()
     end
     local mockWorldLua = {
         ["GetItemName"]=function() end,
-        ["AddMsg"]=function () end
+        ["AddMsg"]=function(_, message)
+            messageSent = message
+        end
     }
     local enumSolve = CS.XiaWorld.OutspreadMgr.Region.SolveWay
     local mockRegion = {
@@ -64,5 +67,6 @@ function test_RedGinsengTreasureHuntFix()
     tbTable:AddTreasure(mocktProduct,mockRegion,mockWorldLua,enumSolve.LingStone)
     g.assert("red ginseng was added",itemAdded,"Item_RedGinseng")
     g.assertLessThan("we get a reasonably low amount of red ginseng", numAdded,50,true)
+    g.assert("the messages are translated", string.find(messageSent, "找到"), nil)
 end
 test_RedGinsengTreasureHuntFix()
