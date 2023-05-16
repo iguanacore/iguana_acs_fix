@@ -25,6 +25,7 @@ A mod, consisting of fixes for Amazing Cultivation Simulator, tries to avoid con
 * Fix Qin Muxue's (Fox pet) Core bonus at the Learning growth stage
 * Fix Rabbit Yaoguai's adventure fly speed bonus - wasn't working as intended. A basic change, not a full rework.
 * Fix the Max Qi value of Miao (turtle), Xianxian and Xiuxiu (pandas) for people not playing with the "Loose Core" Immortal Tribulation.
+* Greedy Personality Heart Unlockable - Changes the gifting related threshold from 70 to 60, meaning attainable before Heart Guard has been unlocked.
 
 ## Install instructions
 
@@ -98,6 +99,7 @@ For example, removing the Ancient Formation Condition fix requires the removal o
 ### Functions
 
 * XiaWorld.HumanoidEvolutionMgr.ModifyNpcByFrag - For Yaoguai Fragment Skill Level fix, a Postfix, compatible with other Postfixes to the same function
+* Wnd_JianghuTalk.GiveGift2Target - For Greedy Personality Heart Unlockable, a Transpiler changing the ldc.r4:70 to ldc.r4:60
 
 ## How to Contribute
 

@@ -42,5 +42,21 @@ namespace iguana_acs_fix
                 }
             }
         }
+        [HarmonyPatch(typeof(Wnd_JianghuTalk), "GiveGift2Target")]
+        private class iguana_GreedyHeartUnlockerTranspiler
+        {
+            static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
+            {
+                foreach (CodeInstruction codeInstruction in instructions)
+                {
+                    if (codeInstruction.opcode.Name == "ldc.r4" && codeInstruction.operand.ToString() == "70")
+                    {
+                        float newvalue = 60f;
+                        codeInstruction.operand = newvalue;
+                    }
+                }
+                return instructions;
+            }
+        }
     }
 }
