@@ -58,6 +58,10 @@ For example, removing the Ancient Formation Condition fix requires the removal o
 
 * Building_WanGuXieFaTan - For Altar of Death Fix
 
+### Items
+
+* Item_Dan_SanHuaHuangJing - Fix Trimerous Essence Price
+
 ### Properties
 
 * NpcFight_SpellCoolDownAddP - For Unorthodox Manual Fix (Spell Cooldown)
