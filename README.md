@@ -18,6 +18,7 @@ A mod, consisting of fixes for Amazing Cultivation Simulator, tries to avoid con
     * Missing category translation for the Bamboo Leftover in the Mini-Universe
     * Spiritwood block -> Spiritwood Timber
 * Fix Event A Different Time - The current event "A Different Time" is corrected to have its designed effect in-game.
+* Fix Trimerous Essence Price - The Trimerous Essence Pill has a buy price and item quantity equal to equivalent items (SR pool).
 
 ## Install instructions
 
