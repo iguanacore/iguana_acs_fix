@@ -21,9 +21,11 @@ A mod, consisting of fixes for Amazing Cultivation Simulator, tries to avoid con
 * Fix Craftsman trait Alchemy bonuses - They weren't working as intended.
 * Add Food tag to Ginkgo - allows it to be chosen by your outer disciples as a somewhat last resort food automatically.
 * Fix Female Fei Constitution - for some base age range the Female Fei has a weirdly high baser values.
+* Fix Treasure Hunt for Red Ginseng using Mining Skill instead of Farming
 * Fix Qin Muxue's (Fox pet) Core bonus at the Learning growth stage
 * Fix Rabbit Yaoguai's adventure fly speed bonus - wasn't working as intended. A basic change, not a full rework.
 * Fix the Max Qi value of Miao (turtle pet), Xianxian and Xiuxiu (panda pets) for people not playing with the "Loose Core" Immortal Tribulation.
+* Greedy Personality Heart Unlockable - Changes the gifting related threshold from 70 to 60, meaning attainable before Heart Guard has been unlocked.
 * Fix the Artifact Power Bonus for  Xianxian and Xiuxiu (panda pets)
 
 ## Install instructions
@@ -94,10 +96,12 @@ For example, removing the Ancient Formation Condition fix requires the removal o
 * Settings\Zhen\Node\ZhenNode_Suit.xml - For Ancient Formations Condition fix, nearly all entities changed
 * Scripts\main.lua - main LUA mod loading utility
 * Scripts\fix-event-a-different-time.lua - Related to "Fix Event A Different Time" change
+* Scripts\MapStory\MapStory.lua - Fix Treasure Hunt for Red Ginseng using Mining Skill instead of Farming
 
 ### Functions
 
 * XiaWorld.HumanoidEvolutionMgr.ModifyNpcByFrag - For Yaoguai Fragment Skill Level fix, a Postfix, compatible with other Postfixes to the same function
+* Wnd_JianghuTalk.GiveGift2Target - For Greedy Personality Heart Unlockable, a Transpiler changing the ldc.r4:70 to ldc.r4:60
 
 ## How to Contribute
 
