@@ -1,0 +1,14 @@
+<FeatureDefs><List>
+	<Feature Name="Rabbit_Fast" Type="Backstory">
+		<DisplayName>迅捷</DisplayName>
+		<Desc>跑步速度很快，学习速度也很快，但心态急躁。</Desc>
+		<ModifierDef>
+			<Properties>
+				<li Name="MoveSpeed" AddV="0" AddP="0.5"/>
+				<li Name="WorldMapFlySpeedAddP" AddV="1"/>
+				<li Name="EmotionAmplificationFactor" AddP="0.1"/>
+				<li Name="IntelligenceSkillEXPConstant" BAddP="0.1"/>
+			</Properties>
+		</ModifierDef>
+	</Feature>
+</List></FeatureDefs>
