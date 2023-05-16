@@ -21,6 +21,7 @@ A mod, consisting of fixes for Amazing Cultivation Simulator, tries to avoid con
 * Fix Craftsman trait Alchemy bonuses - They weren't working as intended.
 * Add Food tag to Ginkgo - allows it to be chosen by your outer disciples as a somewhat last resort food automatically.
 * Fix Female Fei Constitution - for some base age range the Female Fei has a weirdly high baser values.
+* Fix Rabbit Yaoguai's adventure fly speed bonus - wasn't working as intended.
 
 ## Install instructions
 
@@ -70,6 +71,7 @@ For example, removing the Ancient Formation Condition fix requires the removal o
 ### Features
 
 * Craftsman - Fix Craftsman trait Alchemy bonuses
+* Rabbit_Fast - Fix Rabbit's Adventure Fly Speed bonus
 
 ### Npc
 
