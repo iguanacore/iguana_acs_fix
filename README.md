@@ -18,6 +18,7 @@ A mod, consisting of fixes for Amazing Cultivation Simulator, tries to avoid con
     * Missing category translation for the Bamboo Leftover in the Mini-Universe
     * Spiritwood block -> Spiritwood Timber
 * Fix Event A Different Time - The current event "A Different Time" is corrected to have its designed effect in-game.
+* Fix Female Fei Constitution - for some base age range the Female Fei has a weirdly high baser values.
 
 ## Install instructions
 
