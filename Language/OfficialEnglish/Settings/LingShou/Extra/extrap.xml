@@ -1,0 +1,42 @@
+<Texts Type="Other">
+	<List>
+		<Text Name="GrowPercent">
+			<RaceExtra.0.Lv.0.SName>Flood Dragon</RaceExtra.0.Lv.0.SName>
+			<RaceExtra.0.Lv.0.Desc>Possesses a small portion of the full power of a dragon.</RaceExtra.0.Lv.0.Desc>
+			<RaceExtra.0.Lv.1.SName>Flood Dragon</RaceExtra.0.Lv.1.SName>
+			<RaceExtra.0.Lv.1.Desc>Possesses a portion of the full power of a dragon.</RaceExtra.0.Lv.1.Desc>
+			<RaceExtra.0.Lv.2.SName>Flood Dragon</RaceExtra.0.Lv.2.SName>
+			<RaceExtra.0.Lv.2.Desc>Possesses the fully awakened power of a dragon.</RaceExtra.0.Lv.2.Desc>
+			<RaceExtra.1.Lv.0.SName>Fenghuang Phoenix</RaceExtra.1.Lv.0.SName>
+			<RaceExtra.1.Lv.0.Desc>Possesses a small portion of the full power of a phoenix.</RaceExtra.1.Lv.0.Desc>
+			<RaceExtra.1.Lv.1.SName>Fenghuang Phoenix</RaceExtra.1.Lv.1.SName>
+			<RaceExtra.1.Lv.1.Desc>Possesses a portion of the full power of a phoenix.</RaceExtra.1.Lv.1.Desc>
+			<RaceExtra.1.Lv.2.SName>Fenghuang Phoenix</RaceExtra.1.Lv.2.SName>
+			<RaceExtra.1.Lv.2.Desc>Possesses the fully awakened power of a phoenix.</RaceExtra.1.Lv.2.Desc>
+			<RaceExtra.2.Lv.0.SName>Nine-tailed Fox</RaceExtra.2.Lv.0.SName>
+			<RaceExtra.2.Lv.0.Desc>Possesses a small portion of the full power of a fox.</RaceExtra.2.Lv.0.Desc>
+			<RaceExtra.2.Lv.1.SName>Nine-tailed Fox</RaceExtra.2.Lv.1.SName>
+			<RaceExtra.2.Lv.1.Desc>Possesses a portion of the full power of a fox.</RaceExtra.2.Lv.1.Desc>
+			<RaceExtra.2.Lv.2.SName>Nine-tailed Fox</RaceExtra.2.Lv.2.SName>
+			<RaceExtra.2.Lv.2.Desc>Possesses the fully awakened power of a fox.</RaceExtra.2.Lv.2.Desc>
+			<RaceExtra.3.Lv.0.SName>Tiangou Dog</RaceExtra.3.Lv.0.SName>
+			<RaceExtra.3.Lv.0.Desc>Possesses a small portion of the full power of a canine.</RaceExtra.3.Lv.0.Desc>
+			<RaceExtra.3.Lv.1.SName>Tiangou Dog</RaceExtra.3.Lv.1.SName>
+			<RaceExtra.3.Lv.1.Desc>Possesses a portion of the full power of a canine.</RaceExtra.3.Lv.1.Desc>
+			<RaceExtra.3.Lv.2.SName>Tiangou Dog</RaceExtra.3.Lv.2.SName>
+			<RaceExtra.3.Lv.2.Desc>Possesses the fully awakened power of a canine.</RaceExtra.3.Lv.2.Desc>
+			<RaceExtra.4.Lv.0.SName>Panda</RaceExtra.4.Lv.0.SName>
+			<RaceExtra.4.Lv.0.Desc>Flawed Yin Yang Power</RaceExtra.4.Lv.0.Desc>
+			<RaceExtra.4.Lv.1.SName>Panda</RaceExtra.4.Lv.1.SName>
+			<RaceExtra.4.Lv.1.Desc>Incomplete Yin Yang Power</RaceExtra.4.Lv.1.Desc>
+			<RaceExtra.4.Lv.2.SName>Panda</RaceExtra.4.Lv.2.SName>
+			<RaceExtra.4.Lv.2.Desc>Fully Awakened Yin Yang Power</RaceExtra.4.Lv.2.Desc>
+			<RaceExtra.5.Lv.0.SName>Black Tortoise</RaceExtra.5.Lv.0.SName>
+			<RaceExtra.5.Lv.0.Desc>Broken power of Black Tortoise.</RaceExtra.5.Lv.0.Desc>
+			<RaceExtra.5.Lv.1.SName>Black Tortoise</RaceExtra.5.Lv.1.SName>
+			<RaceExtra.5.Lv.1.Desc>Incomplete power of Black Tortoise.</RaceExtra.5.Lv.1.Desc>
+			<RaceExtra.5.Lv.2.SName>Black Tortoise</RaceExtra.5.Lv.2.SName>
+			<RaceExtra.5.Lv.2.Desc>Complete power of Black Tortoise.</RaceExtra.5.Lv.2.Desc>
+		</Text>
+	</List>
+</Texts>

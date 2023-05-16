@@ -1,0 +1,8 @@
+<Texts Type="Other">
+	<List>
+		<Text Name="Rabbit_Fast">
+			<DisplayName>Eager</DisplayName>
+			<Desc>Very fast running speed and learning speed, but with an impatient mentality.</Desc>
+		</Text>
+	</List>
+</Texts>

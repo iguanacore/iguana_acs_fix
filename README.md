@@ -22,6 +22,9 @@ A mod, consisting of fixes for Amazing Cultivation Simulator, tries to avoid con
 * Add Food tag to Ginkgo - allows it to be chosen by your outer disciples as a somewhat last resort food automatically.
 * Fix Female Fei Constitution - for some base age range the Female Fei has a weirdly high baser values.
 * Fix Treasure Hunt for Red Ginseng using Mining Skill instead of Farming
+* Fix Qin Muxue's (Fox pet) Core bonus at the Learning growth stage
+* Fix Rabbit Yaoguai's adventure fly speed bonus - wasn't working as intended. A basic change, not a full rework.
+* Fix the Max Qi value of Miao (turtle), Xianxian and Xiuxiu (pandas) for people not playing with the "Loose Core" Immortal Tribulation.
 
 ## Install instructions
 
@@ -67,10 +70,17 @@ For example, removing the Ancient Formation Condition fix requires the removal o
 ### Properties
 
 * NpcFight_SpellCoolDownAddP - For Unorthodox Manual Fix (Spell Cooldown)
+* LsPandaLingMaxValue (LsProperty_LsPanda) - DLC Pets Max Qi fix
+* LsXuanWuLingMaxValue (LsProperty_DLC_WuDang) - DLC Pets Max Qi fix
+
+### LingShou (Pets)
+
+* property GrowPercent - Fix Qin Muxue's Core stat
 
 ### Features
 
 * Craftsman - Fix Craftsman trait Alchemy bonuses
+* Rabbit_Fast - Fix Rabbit's Adventure Fly Speed bonus
 
 ### Npc
 
