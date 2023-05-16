@@ -19,6 +19,7 @@ A mod, consisting of fixes for Amazing Cultivation Simulator, tries to avoid con
     * Spiritwood block -> Spiritwood Timber
 * Fix Event A Different Time - The current event "A Different Time" is corrected to have its designed effect in-game.
 * Fix Female Fei Constitution - for some base age range the Female Fei has a weirdly high baser values.
+* Change Talisman of Foreseer from "Advanced Talismans" and "Luck with Talisman Room" to 96% quality, so it actually has an adventure exploration effect
 
 ## Install instructions
 
@@ -52,6 +53,7 @@ For example, removing the Ancient Formation Condition fix requires the removal o
 
 * (MapStory_System) SystemLearnGreateBuilding - For Daemonia Wonder Fix
 * (MapStory_FillingLv1) Story_2 and Story_Cold - "Fix Max Qi Story" related
+* (MapStory_Item) Story_Item_E_FuBox - Change Talisman of Foreseer in starting experiences
 
 ### Buildings
 
