@@ -17,6 +17,7 @@ A mod, consisting of fixes for Amazing Cultivation Simulator, tries to avoid con
     * Zen Reflection: generating stamina -> consuming stamina
     * Missing category translation for the Bamboo Leftover in the Mini-Universe
     * Spiritwood block -> Spiritwood Timber
+    * Beautiful Rooms mistakenly rated Common
 * Fix Event A Different Time - The current event "A Different Time" is corrected to have its designed effect in-game.
 * Fix Craftsman trait Alchemy bonuses - They weren't working as intended.
 * Add Food tag to Ginkgo - allows it to be chosen by your outer disciples as a somewhat last resort food automatically.
