@@ -1,3 +1,5 @@
+local iguana_acs_fix = GameMain:GetMod("iguana_acs_fix")
+
 function fixBeautifulRatingName()
     GameDefine.BeautyValueDesc[3] = XT("精美")
 end
