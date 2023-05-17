@@ -28,7 +28,7 @@ A mod, consisting of fixes for Amazing Cultivation Simulator, tries to avoid con
 * Fix the Max Qi value of Miao (turtle pet), Xianxian and Xiuxiu (panda pets) for people not playing with the "Loose Core" Immortal Tribulation.
 * Greedy Personality Heart Unlockable - Changes the gifting related threshold from 70 to 60, meaning attainable before Heart Guard has been unlocked.
 * Fix the Artifact Power Bonus for  Xianxian and Xiuxiu (panda pets)
-* Fix State 3 Equilibrium : The game may sometimes mistakenly display your disciples has having food equilibrium despite them still having unsustained food needs
+* Fix State 3 Equilibrium : The game may sometimes mistakenly displays your disciples has having food equilibrium despite them still having unsustained food needs
 
 ## Install instructions
 
