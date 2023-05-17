@@ -28,6 +28,7 @@ A mod, consisting of fixes for Amazing Cultivation Simulator, tries to avoid con
 * Fix the Max Qi value of Miao (turtle pet), Xianxian and Xiuxiu (panda pets) for people not playing with the "Loose Core" Immortal Tribulation.
 * Greedy Personality Heart Unlockable - Changes the gifting related threshold from 70 to 60, meaning attainable before Heart Guard has been unlocked.
 * Fix the Artifact Power Bonus for  Xianxian and Xiuxiu (panda pets)
+* Fix State 3 Equilibrium : The game may sometimes mistakenly displays your disciples has having food equilibrium despite them still having unsustained food needs
 
 ## Install instructions
 
@@ -98,6 +99,12 @@ For example, removing the Ancient Formation Condition fix requires the removal o
 * Scripts\main.lua - main LUA mod loading utility
 * Scripts\fix-event-a-different-time.lua - Related to "Fix Event A Different Time" change
 * Scripts\MapStory\MapStory.lua - Fix Treasure Hunt for Red Ginseng using Mining Skill instead of Farming
+* Scripts\fix-state-3-equilibrium.lua - Fix State 3 Equilibrium
+
+### Game Constants
+
+* GameDefine.BeautyValueDesc - Beautiful Rooms mistakenly rated Common
+* Panel_ThingInfo.FoodF2 - Fix State 3 Equilibrium
 
 ### Functions
 
