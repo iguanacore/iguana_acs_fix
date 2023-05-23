@@ -2,11 +2,11 @@
     "Name":"iguana_acs_fix",
     "DisplayName":"Iguana's Overhaul, fixes",
     "GameVersion":1.24,
-    "Version":0.6,
-    "Desc": "A mod, consisting of fixes for Amazing Cultivation Simulator, tries to avoid content/functional changes.\n\n[Current fixes]\nListed in the README.MD, available on the repository.",
+    "Version":0.7,
+    "Desc": "A mod, consisting of fixes for Amazing Cultivation Simulator, tries to avoid content/functional changes.\n\n[Current fixes]\nListed in the README.MD, available on the repository.\nhttps://github.com/iguanacore/iguana_acs_fix\n\n[Notes]\nDue to the way certain fixes are implemented, ModLoaderLite is a prerequisite. It's not listed as a prerequisite, because there are multiple versions available at this time.\nEnsure that this mod is loaded after ModLoaderLite, and restart after enabling or disabling it.\nRestarting is required for changes related to assembly loading, and reduces reduces any possible bugs related to enabling the Mod and directly going ingame.\n\nThis mod is hosted and updated on the repository link mentioned above, any other alternative mirrors (like Steam Workshop) can be outdated.",
     "Author":"iguana",
 	"Tags":[
 		"Function"
 	],
-	"IncreasedDesc":"\n0.6: Added Patches, starting with Yaoguai Fragment Skill Level Fix\n0.51: Hotfix for Unorthodox Manual descriptions\n0.5: Implemented Ancient Formations Condition fix\n0.4: Implemented Unorthodox Manual Fix\n0.3: Implemented Qi Barrier Attachment Fix\n0.2: Implemented Altar of Death Fix\n0.1: Implemented Daemonia Wonder Bugfix\n0.0: Initial Release"
+	"IncreasedDesc":"\nFull Changelog available at the repository\nhttps://github.com/iguanacore/iguana_acs_fix"
 }
