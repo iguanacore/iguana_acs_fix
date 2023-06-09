@@ -57,10 +57,15 @@
       <HintPath>..\..\..\..\Amazing Cultivation Simulator_Data\Managed\UnityEngine.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\Amazing Cultivation Simulator_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainPatches.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RefinementSuccessChance.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

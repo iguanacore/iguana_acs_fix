@@ -29,7 +29,7 @@ A mod, consisting of fixes for Amazing Cultivation Simulator, tries to avoid con
 * Greedy Personality Heart Unlockable - Changes the gifting related threshold from 70 to 60, meaning attainable before Heart Guard has been unlocked.
 * Fix the Artifact Power Bonus for  Xianxian and Xiuxiu (panda pets)
 * Fix State 3 Equilibrium : The game may sometimes mistakenly displays your disciples has having food equilibrium despite them still having unsustained food needs
-
+* Fix Refinement success chance estimation - Properly evaluates the specter, tao and spiritual refinement success chances.
 ## Install instructions
 
 Download the latest release, extract the iguana_acs_fix into the Mods folder. If the release is behind the Main version and you want to update to the preview version, download the repository directly, and extract the contents of the archive into the iguana_acs_fix folder, located in the Mods folder.
@@ -110,6 +110,7 @@ For example, removing the Ancient Formation Condition fix requires the removal o
 
 * XiaWorld.HumanoidEvolutionMgr.ModifyNpcByFrag - For Yaoguai Fragment Skill Level fix, a Postfix, compatible with other Postfixes to the same function
 * Wnd_JianghuTalk.GiveGift2Target - For Greedy Personality Heart Unlockable, a Transpiler changing the ldc.r4:70 to ldc.r4:60
+* UILogicMode_IndividualCommand.CheckThing - Fix Refinement success chance estimation
 
 ## How to Contribute
 
