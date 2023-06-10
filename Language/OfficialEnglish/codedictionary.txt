@@ -1,0 +1,9 @@
+Key	Value
+影响建筑速度，建筑受伤时的概率等。	Affects speed during construction work.
+影响种植作物速度，收获作物产量等。	Affects the harvest yield of crops.
+    天苍历245年，腊月。\n    立派于月轮山的正道门派太一门，突遭外敌入侵。太一门掌教虽临阵突破金丹，但却在追击敌人时身陷绝龙阵，最终陨落。\n    是夜，太一门满门尽灭。仅有数名外门弟子在传功长老的帮助下逃出山门……	    Year 245 of the Tiancang Era, December. \n    The Taiyi sect, which had established itself near Mt.Fullmoon, was suddenly invaded by enemies. Although the sect leader had performed a breakthrough into Golden Core right before the battle, they ambushed him with a Dragon-Killer Formation as he was in pursuit—this became his undoing.\n    That night, Taiyi sect was almost entirely massacred. Only a handful of outer disciples managed to escape the mountain with the help of an elder...
+角色对外界的探查与反馈的能力，影响角色的视野，以及需要精细工作的效率等属性。	Perception (PER): A character's ability to explore and gather intelligence from the outside world. Affects a character's field of vision and their proficiency when doing fine work.
+角色受上天眷顾的程度，影响角色概率相关的属性。	Luck (LUK): The extent to which a character is favored by the Heavens. Affects stats related to chance.
+本次拍卖遭遇意外，暂停一次	Due to an accident happening recently, the auction has to be suspended this time.
+行商{0}受人所托，愿使用{1}换取一个{2}	Traveling Merchant {0} has been tasked to exchange your {2} with their {1}.
+行商{0}受人所托，愿使用{1}灵石换取一个{2}	Traveling Merchant {0} has been tasked to exchange your {2} with their {1} Spirit Stones.
