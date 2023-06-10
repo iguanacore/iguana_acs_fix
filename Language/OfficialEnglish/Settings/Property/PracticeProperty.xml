@@ -4,5 +4,10 @@
 			<DisplayName>Mental State Change Speed</DisplayName>
 			<Desc>Speed at which the metal state of inner disciples change.</Desc>
 		</Text>
-    </List>
+		<Text Name="FabaoMake_TwelveRateChance">
+			<DisplayName>T12 Artifact Crafting Success Rate</DisplayName>
+			<Desc>Sacred Relic (Tier 12) success rate when crafting artifacts.</Desc>
+			<FunctionKind>Produce Stats</FunctionKind>
+		</Text>
+	</List>
 </Texts>
