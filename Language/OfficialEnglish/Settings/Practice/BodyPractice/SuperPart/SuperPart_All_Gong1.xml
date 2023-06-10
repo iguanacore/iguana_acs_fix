@@ -1,0 +1,19 @@
+<Texts Type="Other">
+	<List>
+		<Text Name="SuperPart_Gong_1_8">
+			<Prefix>Heaven and Earth</Prefix>
+			<Suffix>Furnace</Suffix>
+			<Desc>A secret body training method created following the dragon copulation theory for essence shaping used by Xiandao cultivators. Draws energy from heart and kidneys with techniques and converges them in the stomach, which is used as a furnace to drastically increase the food consumption and stamina generation. Practice it to the extreme to learn Whale Breathing that can quickly generate essence from nothing.</Desc>
+			<Levels.0.Title>First Layer</Levels.0.Title>
+			<Levels.0.Desc>Moderately increases the physical cultivator's food consumption bonus.\n Moderately increases the physical cultivator's stamina replenishment bonus.\n Slightly increases the physical cultivator's appetite.</Levels.0.Desc>
+			<Levels.1.Title>Second Layer</Levels.1.Title>
+			<Levels.1.Desc>Moderately increases the essence acquisition rate from devouring items.\n Moderately increases the amount of essence gained from devouring items.\n Moderately increases the physical cultivator's appetite.</Levels.1.Desc>
+			<Levels.2.Title>Third Layer</Levels.2.Title>
+			<Levels.2.Desc>Drastically increases the physical cultivator's food consumption bonus.\n Drastically increases the physical cultivator's stamina replenishment bonus.\n Drastically increases the physical cultivator's appetite.</Levels.2.Desc>
+			<Levels.3.Title>Fourth Layer</Levels.3.Title>
+			<Levels.3.Desc>Drastically increases the essence acquisition rate from devouring items.\n Drastically increases the amount of essence gained from devouring items.\n Increases the physical cultivator's appetite by a huge amount.</Levels.3.Desc>
+			<Levels.4.Title>Fifth Layer</Levels.4.Title>
+			<Levels.4.Desc>Unlock Miracle: Whale Breathing</Levels.4.Desc>
+		</Text>
+	</List>
+</Texts>

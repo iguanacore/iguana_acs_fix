@@ -1,0 +1,2 @@
+ID	Name	Desc	sParam1	sParam2
+10129	Converged Fortune	After much hardship, a Xiandao cultivator in your sect has survived nine Heavenly Tribulations, drawing in divine fortune to converge here, and thus your Mini Universe begins to emit strange, faint light.		

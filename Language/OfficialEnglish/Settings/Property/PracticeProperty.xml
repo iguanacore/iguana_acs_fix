@@ -9,5 +9,10 @@
 			<Desc>Sacred Relic (Tier 12) success rate when crafting artifacts.</Desc>
 			<FunctionKind>Produce Stats</FunctionKind>
 		</Text>
+		<Text Name="DeepPracticeSpeedSpecialCoefficient">
+			<DisplayName>Cultivation Speed Bonus</DisplayName>
+			<Desc>Cultivation speed gained by Xiandao Cultivators.</Desc>
+			<FunctionKind>Cultivation Stats</FunctionKind>
+		</Text>
 	</List>
 </Texts>
