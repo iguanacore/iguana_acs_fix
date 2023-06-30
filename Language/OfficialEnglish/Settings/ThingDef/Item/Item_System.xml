@@ -1,0 +1,11 @@
+<Texts Type="Thing">
+	<List>
+		<Text Name="Item_Gong12" sParam="Item">
+			<ThingName>Primordial Symbols Law</ThingName>
+			<Desc>A school of teachings thought to come from the Golden Immortal Yunzhong Zi. It found a new way outside of the traditional system of Xiandao Cultivation. Seizing the moment of breakthrough, one would be able to congeal five Natal Talismans, which have fascinating uses.</Desc>
+			<Item.FabaoSuffix>Volume</Item.FabaoSuffix>
+			<StoryBnts.0.Name>Examine</StoryBnts.0.Name>
+			<StoryBnts.0.Desc>Examine Law</StoryBnts.0.Desc>
+		</Text>
+	</List>
+</Texts>

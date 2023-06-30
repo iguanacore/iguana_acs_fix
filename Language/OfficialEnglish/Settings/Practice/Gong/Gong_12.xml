@@ -1,0 +1,28 @@
+<Texts Type="Other">
+	<List>
+		<Text Name="Gong_12_None">
+			<DisplayName>Primordial Symbols Law</DisplayName>
+			<Desc>A school of teachings thought to come from the Golden Immortal Yunzhong Zi. It found a new way outside of the traditional system of Xiandao Cultivation. Seizing the moment of breakthrough, one would be able to congeal five Natal Talismans, which have fascinating uses.</Desc>
+			<SelectDesc>As you become more cultivated in this Law, you can coagulate five Natal Talismans to this skill to obtain the permanent blessing of the power of Talisman. However, the Law falls short in the field of Magic, being not very good at fighting.</SelectDesc>
+			<Stages.0.DisplayName>Qi</Stages.0.DisplayName>
+			<Stages.0.Necks.0.DisplayName>Confluence</Stages.0.Necks.0.DisplayName>
+			<Stages.0.Necks.0.Desc>[color=#D06508]\nThis breakthrough is more difficult for characters with low perception.</Stages.0.Necks.0.Desc>
+			<Stages.0.Necks.1.DisplayName>Seagazer</Stages.0.Necks.1.DisplayName>
+			<Stages.1.DisplayName>Causation</Stages.1.DisplayName>
+			<Stages.1.Necks.0.DisplayName>Accumulated</Stages.1.Necks.0.DisplayName>
+			<Stages.1.Necks.0.Desc>[color=#D06508]\nThis breakthrough is more difficult for characters with low Constitution.[/color]</Stages.1.Necks.0.Desc>
+			<Stages.1.Necks.1.DisplayName>First Talisman</Stages.1.Necks.1.DisplayName>
+			<Stages.2.DisplayName>Water and Fire</Stages.2.DisplayName>
+			<Stages.2.Necks.0.DisplayName>Fire Talisman</Stages.2.Necks.0.DisplayName>
+			<Stages.2.Necks.1.DisplayName>Water Talisman</Stages.2.Necks.1.DisplayName>
+			<Stages.2.Necks.2.DisplayName>Core Forming</Stages.2.Necks.2.DisplayName>
+			<Stages.3.DisplayName>Primordial Core</Stages.3.DisplayName>
+			<Stages.3.Necks.0.DisplayName>Natural</Stages.3.Necks.0.DisplayName>
+			<Stages.3.Necks.1.DisplayName>Primordial Talisman</Stages.3.Necks.1.DisplayName>
+			<Stages.4.DisplayName>Pure Yang</Stages.4.DisplayName>
+			<Stages.4.Necks.0.DisplayName>Shapeshifting</Stages.4.Necks.0.DisplayName>
+			<Stages.4.Necks.1.DisplayName>Divine Talisman</Stages.4.Necks.1.DisplayName>
+			<Stages.4.Necks.2.DisplayName>Rising Cloud</Stages.4.Necks.2.DisplayName>
+		</Text>
+	</List>
+</Texts>
