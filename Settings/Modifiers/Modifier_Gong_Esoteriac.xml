@@ -1,0 +1,12 @@
+<ModifierDefs><List>
+	<Modifier Name="Gong9_Esoterica_10" Type="Normal">
+		<DisplayName>Gong9_Esoterica_10</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0.5,0.5,0,0</BaseFive>
+		<Properties>
+			<li Name="PotentialOfBasepracticeAddValue" BAddV="2"/>
+		</Properties>
+	</Modifier> 
+</List></ModifierDefs>

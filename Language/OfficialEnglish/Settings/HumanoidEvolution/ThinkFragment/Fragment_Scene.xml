@@ -1,0 +1,12 @@
+<Texts Type="Other">
+	<List>
+		<Text Name="SeeTheSky">
+			<DisplayName>Skygazing</DisplayName>
+			<SingleFormat.0>Wanted to fly while {0} on hills.</SingleFormat.0>
+			<SingleFormat.1>Thought about the hazy past while {0}.</SingleFormat.1>
+		</Text>
+        		<Text Name="LickSelf">
+			<DisplayName>Ringing</DisplayName>
+		</Text>
+    </List>
+</Texts>

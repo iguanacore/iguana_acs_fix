@@ -1,0 +1,11 @@
+<Spells><List>
+	<Spell Name="Spell_TongTian3">
+		<DisplayName>真潜符</DisplayName>
+		<Desc>佩戴者可以提高潜力。</Desc>
+		<Template>Spell/main_texture_zhenqian01</Template>
+		<UnLock>0</UnLock>
+		<Effects>
+			<li Name="PotentialOfBasepracticeAddValue" BAddV="1"/>
+		</Effects>
+	</Spell>
+</List>	</Spells>

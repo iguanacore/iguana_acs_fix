@@ -1,0 +1,12 @@
+<ModifierDefs><List>
+	<Modifier Name="Lingzhi_Esoterica_JinSha" Type="Normal">
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>10,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="GodPenaltyAddV" AddV="200"/>
+			<li Name="PotentialOfBasepracticeAddValue" BAddV="4"/>
+		</Properties>
+	</Modifier>
+</List></ModifierDefs>

@@ -21,5 +21,44 @@
 				<li Name="TailoringQualityAddValue" AddV="0.1"/>
 			</Properties>
 		</ModifierDef>
+	</Feature>
+		<Feature Name="Reader" Type="Backstory"> <!-- Cat Pot Rework -->
+		<DisplayName>读书人</DisplayName>
+		<Desc>此人受过良好的教育，能很好的理解艰涩的内容。</Desc>
+		<ModifierDef>
+			<Properties>
+				<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.3"/>
+				<li Name="InspirationCoefficient" AddP="0.3"/>
+				<li Name="MindStateBaseValue" AddV="5"/>
+				<li Name="ExperienceNeckTimeCostCoefficient" AddP="-0.15"/>
+				<li Name="IntelligenceSkillEXPConstant" AddP="0.15"/>
+				<li Name="PotentialOfBasepracticeAddValue" BAddV="0.8"/>
+			</Properties>
+		</ModifierDef>
 	</Feature> 
+	<Feature Name="Warrior" Type="Backstory"> <!-- Cat Pot Rework -->
+		<DisplayName>战士</DisplayName>
+		<Desc>此人是天生的战士，[IT]能忍耐痛苦，并时刻保持沉着冷静。</Desc>
+		<ModifierDef>
+			<Properties>
+				<li Name="PainTolerance" AddP="1"/>
+				<li Name="NpcFight_BaseHitChance" AddV="0.15"/>
+				<li Name="NpcFight_BaseDodgeChance" AddV="0.15"/>
+				<li Name="BasepracticeSpeedCoefficient" AddP="0.2"/>
+				<li Name="SpeedOfMindStateCoefficient" AddP="-0.2"/>
+				<li Name="EmotionAmplificationFactor" AddP="-0.2"/>
+				<li Name="PotentialOfBasepracticeAddValue" BAddV="0.5"/>
+			</Properties>
+		</ModifierDef>
+	</Feature>
+	<Feature Name="DeepPotential" Type="Normal"> <!-- Cat Pot Rework -->
+		<DisplayName>慧根</DisplayName>
+		<Desc>此人天生慧根，比别人更容易修炼。</Desc>
+		<ModifierDef>
+			<Properties>
+				<li Name="PotentialOfBasepracticeAddValue" BAddV="1"/>
+				<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.3"/>
+			</Properties>
+		</ModifierDef>
+	</Feature> 	
 </List></FeatureDefs>

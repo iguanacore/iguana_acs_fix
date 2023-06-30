@@ -30,6 +30,8 @@ A mod, consisting of fixes for Amazing Cultivation Simulator, tries to avoid con
 * Fix the Artifact Power Bonus for  Xianxian and Xiuxiu (panda pets)
 * Fix State 3 Equilibrium : The game may sometimes mistakenly displays your disciples has having food equilibrium despite them still having unsustained food needs
 * Fix Refinement success chance estimation - Properly evaluates the specter, tao and spiritual refinement success chances.
+* Potential Value rework (Curious) - A workaround for Curious (Cat Yaoguai Trait), making it work as originally intended. Turns existing Potential boosts from AddV To BAddV, making the AddP value from the trait actually functional.
+
 ## Install instructions
 
 Download the latest release, extract the iguana_acs_fix into the Mods folder. If the release is behind the Main version and you want to update to the preview version, download the repository directly, and extract the contents of the archive into the iguana_acs_fix folder, located in the Mods folder.
@@ -78,6 +80,26 @@ For example, removing the Ancient Formation Condition fix requires the removal o
 * LsPandaFabaoPowerAddP (LsProperty_LsPanda) - DLC Panda pets Artifact Power Bonus fix
 * LsXuanWuLingMaxValue (LsProperty_DLC_WuDang) - DLC Pets Max Qi fix
 
+### Modifiers
+
+* Lingzhi_Esoterica_JinSha - Potential Value rework (Curious)
+* Gong4_LvUpEsoterica_1, Gong5_LvUpEsoterica_2, Gong5_LvUpEsoterica_3, Gong5_LvUpEsoterica_4, Gong5_LvUpEsoterica_5, Gong6_LvUpEsoterica_4, Gong7_LvUpEsoterica_4 - Potential Value rework (Curious)
+* Gong9_Esoterica_10 - Potential Value rework (Curious)
+* Gong13_Esoterica_3 - Potential Value rework (Curious)
+
+
+#### Elixirs (Dan)
+
+* Modifier_Item_XianShiChongSheng, Modifier_ItemXieShiChongSheng - Potential Value rework (Curious)
+
+#### Relics
+
+* Potential Bonus (FSZhenWu_41), Yin Vessel (SP_FSZhenWu_4) - Potential Value rework (Curious)
+
+#### Spirit Roots
+
+* (All Elemental) Fiend/Spirit sympathy - Potential Value rework (Curious)
+
 ### LingShou (Pets)
 
 * property GrowPercent - Fix Qin Muxue's Core stat
@@ -86,10 +108,19 @@ For example, removing the Ancient Formation Condition fix requires the removal o
 
 * Craftsman - Fix Craftsman trait Alchemy bonuses
 * Rabbit_Fast - Fix Rabbit's Adventure Fly Speed bonus
+* Intellectual (Reader), Warrior (Warrior), Talent (DeepPotential) - Potential Value rework (Curious) 
 
 ### Npc
 
 * Fei - Fix Female Fei Constitution
+
+### Yaoguai Shards
+
+* Skygazing (SeeTheSky), Ringing (LickSelf) - Potential Value rework (Curious)
+
+### Talisman
+
+* Latent Talisman (Spell_TongTian3) - Potential Value rework (Curious)
 
 ### Other files
 

@@ -1,0 +1,45 @@
+<Defs><List>
+	<Def Name="SeeTheSky">
+		<Type>Scene</Type>
+		<Tag>Exotic</Tag>
+		<Level>3</Level>
+		<DisplayName>看天空</DisplayName>
+		<Properties>
+			<li>
+				<PName>PotentialOfBasepracticeAddValue</PName>
+				<BAddv>1</BAddv>
+				<Addp>0</Addp>
+			</li>
+		</Properties>
+		<Skills>
+			<li Name="DanQi" Level="-3"/>
+		</Skills>
+		<SingleFormat>
+			<li>在{0}的时候，幻想自己也能飞上去</li>
+			<li>在{0}的时候，想到了朦胧的往事</li>
+		</SingleFormat>
+		<FeatureTag>Rationality</FeatureTag>
+		<FeatureValue>4</FeatureValue>
+	</Def>
+    	<Def Name="LickSelf">
+		<Type>Scene</Type>
+		<Tag>Hear</Tag>
+		<Level>2</Level>
+		<DisplayName>听铃声</DisplayName>
+		<BaseFive>0,0,0.2,0,0</BaseFive>
+		<Properties>
+			<li>
+				<PName>PotentialOfBasepracticeAddValue</PName>
+				<BAddv>0.5</BAddv>
+				<Addp>0</Addp>
+			</li>
+			<li>
+				<PName>NpcFight_BaseDodgeChance</PName>
+				<Addv>-0.2</Addv>
+				<Addp>0</Addp>
+			</li>
+		</Properties>
+		<FeatureTag>Rationality</FeatureTag>
+		<FeatureValue>2</FeatureValue>
+	</Def>
+</List></Defs>

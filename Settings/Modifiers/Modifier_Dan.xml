@@ -1,0 +1,20 @@
+<ModifierDefs><List>
+	<Modifier Name="Modifier_Item_XianShiChongSheng" Type="Normal">
+		<DisplayName>神识重生</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="PotentialOfBasepracticeAddValue" BAddV="1.5"/>
+		</Properties>
+	</Modifier>	
+	<Modifier Name="Modifier_Item_XieShiChongSheng" Type="Normal">
+		<DisplayName>邪识重生</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="PotentialOfBasepracticeAddValue" BAddV="-1.5"/>
+		</Properties>
+	</Modifier> 
+</List></ModifierDefs>
