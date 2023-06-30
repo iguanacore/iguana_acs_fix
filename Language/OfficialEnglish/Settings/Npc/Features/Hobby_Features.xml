@@ -4,5 +4,17 @@
 			<DisplayName>Craftsman</DisplayName>
 			<Desc>A person who excels at handicraft. This one excels at making things fast and well.</Desc>
 		</Text>
+		<Text Name="Reader">
+			<DisplayName>Intellectual</DisplayName>
+			<Desc>A well-educated person, capable of comprehending obscure content.</Desc>
+		</Text>
+		<Text Name="Warrior">
+			<DisplayName>Warrior</DisplayName>
+			<Desc>A natural warrior, this one is able to endure great pains and keep calm under any circumstances.</Desc>
+		</Text>
+		<Text Name="DeepPotential">
+			<DisplayName>Talent</DisplayName>
+			<Desc>A person born with great talent, this one can cultivate effortlessly.</Desc>
+		</Text>
 	</List>
 </Texts>

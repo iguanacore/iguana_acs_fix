@@ -1,0 +1,132 @@
+<ModifierDefs><List>
+	<Modifier Name="Modifier_LingZhi_GT0_Jin" Type="Normal">
+		<DisplayName>金灵交感</DisplayName>
+		<Desc>在金灵根附近修炼，与其进入交感之态。神识提高，心境提高，修炼速度降低，潜力提高。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<BaseFive>2,0,0,0,0</BaseFive>
+		<Properties>  
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="-1"/>
+			<li Name="PotentialOfBasepracticeAddValue" BAddV="2"/>
+			<li Name="MindStateBaseValue" AddV="20"/>
+		</Properties>
+	</Modifier>
+    <Modifier Name="Modifier_LingZhi_LT0_Jin" Type="Normal">
+		<DisplayName>金煞交感</DisplayName>
+		<Desc>在金灵根附近修炼，与其进入交感之态。神识提高，心境降低，修炼速度提高，潜力降低。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<BaseFive>2,0,0,0,0</BaseFive>
+		<Properties>  
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="2"/>
+			<li Name="PotentialOfBasepracticeAddValue" BAddV="-1"/>
+			<li Name="MindStateBaseValue" AddV="-20"/>
+		</Properties>
+	</Modifier>
+    <Modifier Name="Modifier_LingZhi_GT0_Mu" Type="Normal">
+		<DisplayName>木灵交感</DisplayName>
+		<Desc>在木灵根附近修炼，与其进入交感之态。根骨提高，心境提高，修炼速度降低，潜力提高。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<BaseFive>0,2,0,0,0</BaseFive>
+		<Properties>  
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="-1"/>
+			<li Name="PotentialOfBasepracticeAddValue" BAddV="2"/>
+			<li Name="MindStateBaseValue" AddV="20"/>
+		</Properties>
+	</Modifier>
+    <Modifier Name="Modifier_LingZhi_LT0_Mu" Type="Normal">
+		<DisplayName>木煞交感</DisplayName>
+		<Desc>在木灵根附近修炼，与其进入交感之态。根骨提高，心境降低，修炼速度提高，潜力降低。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<BaseFive>0,2,0,0,0</BaseFive>
+		<Properties>  
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="2"/>
+			<li Name="PotentialOfBasepracticeAddValue" BAddV="-1"/>
+			<li Name="MindStateBaseValue" AddV="-20"/>
+		</Properties>
+	</Modifier>
+    <Modifier Name="Modifier_LingZhi_GT0_Shui" Type="Normal">
+		<DisplayName>水灵交感</DisplayName>
+		<Desc>在水灵根附近修炼，与其进入交感之态。魅力提高，心境提高，修炼速度降低，潜力提高。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<BaseFive>0,0,2,0,0</BaseFive>
+		<Properties>  
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="-1"/>
+			<li Name="PotentialOfBasepracticeAddValue" BAddV="2"/>
+			<li Name="MindStateBaseValue" AddV="20"/>
+		</Properties>
+	</Modifier>
+    <Modifier Name="Modifier_LingZhi_LT0_Shui" Type="Normal">
+		<DisplayName>水煞交感</DisplayName>
+		<Desc>在水灵根附近修炼，与其进入交感之态。魅力提高，心境降低，修炼速度提高，潜力降低。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<BaseFive>0,0,2,0,0</BaseFive>
+		<Properties>  
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="2"/>
+			<li Name="PotentialOfBasepracticeAddValue" BAddV="-1"/>
+			<li Name="MindStateBaseValue" AddV="-20"/>
+		</Properties>
+	</Modifier>
+    <Modifier Name="Modifier_LingZhi_GT0_Huo" Type="Normal">
+		<DisplayName>火灵交感</DisplayName>
+		<Desc>在火灵根附近修炼，与其进入交感之态。悟性提高，心境提高，修炼速度降低，潜力提高。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<BaseFive>0,0,0,2,0</BaseFive>
+		<Properties>  
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="-1"/>
+			<li Name="PotentialOfBasepracticeAddValue" BAddV="2"/>
+			<li Name="MindStateBaseValue" AddV="20"/>
+		</Properties>
+	</Modifier>
+    <Modifier Name="Modifier_LingZhi_LT0_Huo" Type="Normal">
+		<DisplayName>火煞交感</DisplayName>
+		<Desc>在火灵根附近修炼，与其进入交感之态。悟性提高，心境降低，修炼速度提高，潜力降低。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<BaseFive>0,0,0,2,0</BaseFive>
+		<Properties>  
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="2"/>
+			<li Name="PotentialOfBasepracticeAddValue" BAddV="-1"/>
+			<li Name="MindStateBaseValue" AddV="-20"/>
+		</Properties>
+	</Modifier>
+    <Modifier Name="Modifier_LingZhi_GT0_Tu" Type="Normal">
+		<DisplayName>土灵交感</DisplayName>
+		<Desc>在土灵根附近修炼，与其进入交感之态。机缘提高，心境提高，修炼速度降低，潜力提高。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<BaseFive>0,0,0,0,2</BaseFive>
+		<Properties>  
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="-1"/>
+			<li Name="PotentialOfBasepracticeAddValue" BAddV="2"/>
+			<li Name="MindStateBaseValue" AddV="20"/>
+		</Properties>
+	</Modifier>
+    <Modifier Name="Modifier_LingZhi_LT0_Tu" Type="Normal">
+		<DisplayName>土煞交感</DisplayName>
+		<Desc>在土灵根附近修炼，与其进入交感之态。机缘提高，心境降低，修炼速度提高，潜力降低。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<BaseFive>0,0,0,0,2</BaseFive>
+		<Properties>  
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="2"/>
+			<li Name="PotentialOfBasepracticeAddValue" BAddV="-1"/>
+			<li Name="MindStateBaseValue" AddV="-20"/>
+		</Properties>
+	</Modifier>
+</List></ModifierDefs>

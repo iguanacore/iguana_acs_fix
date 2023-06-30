@@ -1,0 +1,44 @@
+<Texts Type="Other">
+	<List>
+        <Text Name="Modifier_LingZhi_GT0_Jin">
+			<DisplayName>Metal-Spirit sympathy</DisplayName>
+			<Desc>Cultivate near a Metal Spirit Root to enter the state of sympathy with it. Perception increased, Mental State increased, Cultivation Speed decreased, Potential increased.</Desc>
+		</Text>
+		<Text Name="Modifier_LingZhi_LT0_Jin">
+			<DisplayName>Metal-Fiend sympathy</DisplayName>
+			<Desc>Cultivate near a Metal Spirit Root to enter the state of sympathy with it. Perception increased, Mental State decreased, Cultivation Speed increased, Potential decreased.</Desc>
+		</Text>
+		<Text Name="Modifier_LingZhi_GT0_Mu">
+			<DisplayName>Wood-Spirit sympathy</DisplayName>
+			<Desc>Cultivate near a Wood Spirit Root to enter the state of sympathy with it. Constitution increased, Mental State increased, Cultivation Speed decreased, Potential increased.</Desc>
+		</Text>
+		<Text Name="Modifier_LingZhi_LT0_Mu">
+			<DisplayName>Wood-Fiend sympathy</DisplayName>
+			<Desc>Cultivate near a Wood Spirit Root to enter the state of sympathy with it. Constitution increased, Mental State decreased, Cultivation Speed increased, Potential decreased.</Desc>
+		</Text>
+		<Text Name="Modifier_LingZhi_GT0_Shui">
+			<DisplayName>Water-Spirit sympathy</DisplayName>
+			<Desc>Cultivate near a Water Spirit Root to enter the state of sympathy with it. Charisma increased, Mental State increased, Cultivation Speed decreased, Potential increased.</Desc>
+		</Text>
+		<Text Name="Modifier_LingZhi_LT0_Shui">
+			<DisplayName>Water-Fiend sympathy</DisplayName>
+			<Desc>Cultivate near a Water Spirit Root to enter the state of sympathy with it. Charisma increased, Mental State decreased, Cultivation Speed increased, Potential decreased.</Desc>
+		</Text>
+		<Text Name="Modifier_LingZhi_GT0_Huo">
+			<DisplayName>Fire-Spirit sympathy</DisplayName>
+			<Desc>Cultivate near a Fire Spirit Root to enter the state of sympathy with it. Intelligence increased, Mental State increased, Cultivation Speed decreased, Potential increased.</Desc>
+		</Text>
+		<Text Name="Modifier_LingZhi_LT0_Huo">
+			<DisplayName>Fire-Fiend sympathy</DisplayName>
+			<Desc>Cultivate near a Fire Spirit Root to enter the state of sympathy with it. Intelligence increased, Mental State decreased, Cultivation Speed increased, Potential decreased.</Desc>
+		</Text>
+		<Text Name="Modifier_LingZhi_GT0_Tu">
+			<DisplayName>Earth-Spirit sympathy</DisplayName>
+			<Desc>Cultivate near an Earth Spirit Root to enter the state of sympathy with it. Luck increased, Mental State increased, Cultivation Speed decreased, Potential increased.</Desc>
+		</Text>
+		<Text Name="Modifier_LingZhi_LT0_Tu">
+			<DisplayName>Earth-Fiend sympathy</DisplayName>
+			<Desc>Cultivate near an Earth Spirit Root to enter the state of sympathy with it. Luck increased, Mental State decreased, Cultivation Speed increased, Potential decreased.</Desc>
+		</Text>
+    </List>
+</Texts>

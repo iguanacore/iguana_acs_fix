@@ -1,0 +1,25 @@
+<ModifierDefs><List>
+	<Modifier Name="FSZhenWu_41" Type="New">
+		<DisplayName>潜力加值</DisplayName>
+		<Desc></Desc>
+		<ClassName>Modifier_Zhenwu</ClassName>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="PotentialOfBasepracticeAddValue" BAddV="1"/>
+		</Properties>
+	</Modifier>
+    	<Modifier Name="SP_FSZhenWu_4" Type="New">
+		<DisplayName>汇阴瓶</DisplayName>
+		<Desc></Desc>
+		<ClassName>Modifier_Zhenwu</ClassName>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="MindStateBaseValue" AddV="-25"/>
+			<li Name="PotentialOfBasepracticeAddValue" BAddV="2"/>
+		</Properties>
+	</Modifier> 
+</List></ModifierDefs>

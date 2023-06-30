@@ -1,0 +1,10 @@
+<Texts Type="Other">
+	<List>
+    	<Text Name="Modifier_Item_XianShiChongSheng">
+			<DisplayName>Rebirth of Divine Consciousness</DisplayName>
+		</Text>
+		<Text Name="Modifier_Item_XieShiChongSheng">
+			<DisplayName>Rebirth of Wicked Consciousness</DisplayName>
+		</Text>
+	</List>
+</Texts>

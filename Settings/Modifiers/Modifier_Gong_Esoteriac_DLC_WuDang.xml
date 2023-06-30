@@ -1,0 +1,13 @@
+<ModifierDefs><List>
+    <Modifier Name="Gong13_Esoterica_3" Type="Normal">
+		<DisplayName>Gong13_Esoterica_3</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>3,3,3,3,3</BaseFive>
+		<Properties>
+			<li Name="PotentialOfBasepracticeAddValue" BAddV="1"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="500"/>
+		</Properties>
+	</Modifier> 
+</List></ModifierDefs>

@@ -1,0 +1,74 @@
+<ModifierDefs><List>
+	<Modifier Name="Gong5_LvUpEsoterica_1" Type="Normal">
+		<DisplayName>Gong5_LvUpEsoterica_1</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,2,0,0</BaseFive>
+		<Properties>
+			<li Name="PotentialOfBasepracticeAddValue" BAddV="0.5"/>
+		</Properties>
+	</Modifier>
+    <Modifier Name="Gong5_LvUpEsoterica_2" Type="Normal">
+		<DisplayName>Gong5_LvUpEsoterica_2</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>2,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="PotentialOfBasepracticeAddValue" BAddV="0.5"/>
+		</Properties>
+	</Modifier>
+    <Modifier Name="Gong5_LvUpEsoterica_3" Type="Normal">
+		<DisplayName>Gong5_LvUpEsoterica_3</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,2,0</BaseFive>
+		<Properties>
+			<li Name="PotentialOfBasepracticeAddValue" BAddV="0.5"/>
+		</Properties>
+	</Modifier>
+    <Modifier Name="Gong5_LvUpEsoterica_4" Type="Normal">
+		<DisplayName>Gong5_LvUpEsoterica_4</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,2</BaseFive>
+		<Properties>
+			<li Name="PotentialOfBasepracticeAddValue" BAddV="0.5"/>
+		</Properties>
+	</Modifier>
+    <Modifier Name="Gong5_LvUpEsoterica_5" Type="Normal">
+		<DisplayName>Gong5_LvUpEsoterica_5</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddP="30"/>
+			
+			<li Name="NutritionConsumeConstant" AddP="4"/>
+			<li Name="NutritionWaterAutoRecover" AddV="1"/>
+			<li Name="PotentialOfBasepracticeAddValue" BAddV="2"/>
+		</Properties>
+	</Modifier>
+    <Modifier Name="Gong6_LvUpEsoterica_4" Type="Normal">
+		<DisplayName>Gong6_LvUpEsoterica_4</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="AgeCostSpeed" AddP="1"/>
+			<li Name="PotentialOfBasepracticeAddValue" BAddV="2"/>
+		</Properties>
+	</Modifier>
+    <Modifier Name="Gong7_LvUpEsoterica_4" Type="Normal">
+		<DisplayName>Gong7_LvUpEsoterica_4</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="PotentialOfBasepracticeAddValue" BAddV="3"/>
+		</Properties>
+	</Modifier>
+</List></ModifierDefs>
