@@ -31,6 +31,7 @@ A mod, consisting of fixes for Amazing Cultivation Simulator, tries to avoid con
 * Fix State 3 Equilibrium : The game may sometimes mistakenly displays your disciples has having food equilibrium despite them still having unsustained food needs
 * Fix Refinement success chance estimation - Properly evaluates the specter, tao and spiritual refinement success chances.
 * Potential Value rework (Curious) - A workaround for Curious (Cat Yaoguai Trait), making it work as originally intended. Turns existing Potential boosts from AddV To BAddV, making the AddP value from the trait actually functional.
+* Correct Rock Yield - Rock yield is lower than it should be unless you are playing with a map reveal mod, this corrects the issue for everyone
 
 ## Install instructions
 
@@ -131,6 +132,7 @@ For example, removing the Ancient Formation Condition fix requires the removal o
 * Scripts\fix-event-a-different-time.lua - Related to "Fix Event A Different Time" change
 * Scripts\MapStory\MapStory.lua - Fix Treasure Hunt for Red Ginseng using Mining Skill instead of Farming
 * Scripts\fix-state-3-equilibrium.lua - Fix State 3 Equilibrium
+* Scripts\correct-rock-yield.lua - Correct Rock Yield
 
 ### Game Constants
 
