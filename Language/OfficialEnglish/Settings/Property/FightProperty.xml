@@ -3,5 +3,10 @@
 		<Text Name="NpcFight_SpellCoolDownAddP">
 			<DisplayName>Spell Cooldown Bonus</DisplayName>
 		</Text>
+		<Text Name="NpcFight_SpellCastTimeAddP">
+			<DisplayName>Spell Cast Time Bonus</DisplayName>
+			<Desc>The length of preparation time needed before releasing Spells.</Desc>
+			<FunctionKind>Battle Stats</FunctionKind>
+		</Text>
     </List>
 </Texts>
