@@ -1,5 +1,4 @@
 Key	Value
-影响建筑速度，建筑受伤时的概率等。	Affects speed during construction work.
 影响种植作物速度，收获作物产量等。	Affects the harvest yield of crops.
     天苍历245年，腊月。\n    立派于月轮山的正道门派太一门，突遭外敌入侵。太一门掌教虽临阵突破金丹，但却在追击敌人时身陷绝龙阵，最终陨落。\n    是夜，太一门满门尽灭。仅有数名外门弟子在传功长老的帮助下逃出山门……	    Year 245 of the Tiancang Era, December. \n    The Taiyi sect, which had established itself near Mt.Fullmoon, was suddenly invaded by enemies. Although the sect leader had performed a breakthrough into Golden Core right before the battle, they ambushed him with a Dragon-Killer Formation as he was in pursuit—this became his undoing.\n    That night, Taiyi sect was almost entirely massacred. Only a handful of outer disciples managed to escape the mountain with the help of an elder...
 角色对外界的探查与反馈的能力，影响角色的视野，以及需要精细工作的效率等属性。	Perception (PER): A character's ability to explore and gather intelligence from the outside world. Affects a character's field of vision and their proficiency when doing fine work.
@@ -7,3 +6,19 @@ Key	Value
 本次拍卖遭遇意外，暂停一次	Due to an accident happening recently, the auction has to be suspended this time.
 行商{0}受人所托，愿使用{1}换取一个{2}	Traveling Merchant {0} has been tasked to exchange your {2} with their {1}.
 行商{0}受人所托，愿使用{1}灵石换取一个{2}	Traveling Merchant {0} has been tasked to exchange your {2} with their {1} Spirit Stones.
+    从动物修行化形，需经历化形天劫才能化身为人。\n    此劫五行俱全，金木水火土五种天劫轮流降临。	    To cultivate from an animal into human form, one must survive the Shapeshifting Tribulation. \n    This tribulation is of all Five Elements, with Metal, Wood, Water, Fire and Earth versions of it descending one after another.
+参悟值：{0:F0}	Inspiration: {0:n0}
+[color=#ff0000]下一级参悟值：{0:F0}/{1:F0}[color]\n提高道行: {3}\n{2}	[color=#ff0000]Inspiration on next level: {0:n0}/{1:n0}[color]\nAttainment: +{3}\n{2}
+下一级参悟值：{0:F0}/{1:F0}\n提高道行: {3}\n{2}	Inspiration on next level: {0:n0}/{1:n0}\nAttainment: +{3}\n{2}
+参悟值：{0:F0}\n{1}	Inspiration: {0:n0}\n{1}
+参悟值：{0:F0}	Inspiration: {0:n0}
+参悟经验：{0:F0}/{1:F0}\n	Inspiration XP: {0:n0}/{1:n0}\n
+参悟经验：{0:F0}/{1:F0}	Inspiration XP: {0:n0}/{1:n0}
+参悟经验：{0}\n	Inspiration XP: {0:n0}\n
+{1}获得参悟经验：{0:F0}点	{1} Obtained Inspiration XP: {0:n0}
+参悟不足({0:F0}/{1:F0})\n	Too low Inspiration ({0:n0}/{1:n0})\n
+\n参悟不足：{0:F0}/{1:F0}	\nToo low Inspiration {0:n0}/{1:n0}
+确定要消耗{0:F0}点参悟值提高{1}等级么？	Do you want to spend {0:n0} Inspiration to level up {1}?
+确定要消耗{0:F0}点参悟值参悟{1}么？	Do you want to spend {0:n0} Inspiration to learn {1}?
+[{2}]\n{3}\n参悟值：{0:F0}/{1:F0}	[{2}]\n{3}\nInspiration: {0:n0}/{1:n0}
+确定要消耗{0:F0}点参悟值领悟{1}么？\n这将消耗掉这本秘籍。	Do you want to spend {0:n0} Inspiration to learn {1}?\nThis manual will be lost.
