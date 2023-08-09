@@ -64,10 +64,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CultivationXPNumbers.cs" />
+    <Compile Include="iguana_acs_fix.cs" />
     <Compile Include="MainPatches.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QiRecoveryNOLING.cs" />
     <Compile Include="RefinementSuccessChance.cs" />
+    <Compile Include="ShowResourcesInWorldMap.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

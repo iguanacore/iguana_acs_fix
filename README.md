@@ -10,7 +10,7 @@ A mod, consisting of fixes for Amazing Cultivation Simulator, tries to avoid con
 * Ancient Formations Condition fix - Implements the faulty conditions for Ancient Formation Nodes. Law Elements, and in some cases, Item requirements.
 * Yaoguai Fragment Skill Level fix - Fixes Yaoguai Rebirthing related Skill issue, where Skill Levels aren't what they are supposed to be (not to be mixed up with the rerolling of Skills in general, which is a feature)
 * Fix Max Qi Story - Correct Story_2 and Story_Cold's reversed comparison, which prevents the extra Base Max Qi % outcomes to be triggered during a playthrough.
-* Various test issues, [full details here](TextChanges.md)
+* Various text issues, [full details here](TextChanges.md)
 * Fix Event A Different Time - The current event "A Different Time" is corrected to have its designed effect in-game.
 * Fix Craftsman trait Alchemy bonuses - They weren't working as intended.
 * Add Food tag to Ginkgo - allows it to be chosen by your outer disciples as a somewhat last resort food automatically.
@@ -26,6 +26,7 @@ A mod, consisting of fixes for Amazing Cultivation Simulator, tries to avoid con
 * Potential Value rework (Curious) - A workaround for Curious (Cat Yaoguai Trait), making it work as originally intended. Turns existing Potential boosts from AddV To BAddV, making the AddP value from the trait actually functional.
 * Fix Qi Recovery during Golden Core - property shows the disabled Qi Recovery during Golden Core breakthroughs (and others situations where Qi recovery is disabled)
 * Correct Rock Yield - Rock yield is lower than it should be unless you are playing with a map reveal mod, this corrects the issue for everyone
+* Add Resources in World Map - add spirit stones and influence numbers and icons on the top right of the screen in the worl map. Works on Xbox Gamepass version.
 
 ## Install instructions
 
