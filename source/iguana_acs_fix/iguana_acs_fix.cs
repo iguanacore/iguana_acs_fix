@@ -8,9 +8,11 @@ namespace iguana_acs_fix
 {
     public class iguana_acs_fix
     {
-        static Dictionary<string, bool> config = new Dictionary<string, bool>()
+        public static bool configLoaded = false;
+        public static Dictionary<string, bool> config = new Dictionary<string, bool>()
         {
-            { "ShowResourcesInWorldMap", ShowResourcesInWorldMap.enabled}
+            { "ShowResourcesInWorldMap", ShowResourcesInWorldMap.enabled},
+            { "Correct Caged Animals Perception", true }
         };
 
         static Dictionary<string, List<Action>> loadSaveSubmods = new Dictionary<string, List<Action>>()
@@ -18,7 +20,7 @@ namespace iguana_acs_fix
             { "ShowResourcesInWorldMap", new List<Action>(){ ShowResourcesInWorldMap.OnLoad, null} }
         };
 
-        public static void OnLoad()
+        public static void OnInit()
         {
             Dictionary<string, bool> loadConfig = MLLMain.GetSaveOrDefault<Dictionary<string, bool>>("iguana_acs_fix_config");
             if (loadConfig != null)
@@ -31,8 +33,13 @@ namespace iguana_acs_fix
             }
             if (!Configuration.ListItems.ContainsKey("iguana_acs_fix"))
             {
-                OnInit();
+                foreach (KeyValuePair<string, bool> kvp in config)
+                {
+                    Configuration.AddCheckBox("iguana_acs_fix", kvp.Key, kvp.Key, kvp.Value);
+                }
+                Configuration.Subscribe(new EventCallback0(HandleConfig));
             }
+            HandleConfig(); // Needed or the loaded config isn't applied immediately
             foreach (KeyValuePair<string, List<Action>> kvp in loadSaveSubmods)
             {
                 if ((!config.ContainsKey(kvp.Key) || config[kvp.Key]) && kvp.Value[0] != null)
@@ -41,18 +48,9 @@ namespace iguana_acs_fix
                     kvp.Value[0]();
                 }
             }
+            configLoaded = true;
         }
-        public static void OnInit()
-        {
-            if (!Configuration.ListItems.ContainsKey("iguana_acs_fix"))
-            {
-                foreach (KeyValuePair<string, bool> kvp in config)
-                {
-                    Configuration.AddCheckBox("iguana_acs_fix", kvp.Key, kvp.Key, kvp.Value);
-                }
-                Configuration.Subscribe(new EventCallback0(HandleConfig));
-            }
-        }
+        public static Action OnLoad = OnInit;
 
         public static void OnSave()
         {
@@ -70,6 +68,19 @@ namespace iguana_acs_fix
         private static void HandleConfig()
         {
             ShowResourcesInWorldMap.enabled = Configuration.GetCheckBox("iguana_acs_fix", "ShowResourcesInWorldMap");
+            Dictionary<string, bool> newConfig = new Dictionary<string, bool>();
+            foreach (KeyValuePair<string, bool> kvp in config)
+            {
+                bool newValue = Configuration.GetCheckBox("iguana_acs_fix", kvp.Key);
+                if (kvp.Value != newValue)
+                {
+                    newConfig[kvp.Key] = newValue;
+                }
+            }
+            foreach (KeyValuePair<string, bool> kvp in newConfig)
+            {
+                config[kvp.Key] = kvp.Value;
+            }
         }
     }
 
