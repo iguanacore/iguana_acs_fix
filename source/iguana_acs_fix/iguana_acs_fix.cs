@@ -20,7 +20,7 @@ namespace iguana_acs_fix
             { "ShowResourcesInWorldMap", new List<Action>(){ ShowResourcesInWorldMap.OnLoad, null} }
         };
 
-        public static void OnInit()
+        static void OnLoadInit(string funcName)
         {
             Dictionary<string, bool> loadConfig = MLLMain.GetSaveOrDefault<Dictionary<string, bool>>("iguana_acs_fix_config");
             if (loadConfig != null)
@@ -44,13 +44,20 @@ namespace iguana_acs_fix
             {
                 if ((!config.ContainsKey(kvp.Key) || config[kvp.Key]) && kvp.Value[0] != null)
                 {
-                    KLog.Dbg("iguana_acs_fix: OnLoad submod " + kvp.Key);
+                    KLog.Dbg($"\tiguana_acs_fix: {funcName} submod {kvp.Key}");
                     kvp.Value[0]();
                 }
             }
             configLoaded = true;
         }
-        public static Action OnLoad = OnInit;
+        public static void OnInit()
+        {
+            OnLoadInit("OnInit");
+        }
+        public static void OnLoad()
+        {
+            OnLoadInit("OnLoad");
+        }
 
         public static void OnSave()
         {

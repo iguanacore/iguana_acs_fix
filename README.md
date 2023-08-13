@@ -29,8 +29,8 @@ A mod, consisting of fixes for Amazing Cultivation Simulator, tries to avoid con
 * Potential Value rework (Curious) - A workaround for Curious (Cat Yaoguai Trait), making it work as originally intended. Turns existing Potential boosts from AddV To BAddV, making the AddP value from the trait actually functional.
 * Fix Qi Recovery during Golden Core - property shows the disabled Qi Recovery during Golden Core breakthroughs (and others situations where Qi recovery is disabled)
 * Correct Rock Yield - Rock yield is lower than it should be unless you are playing with a map reveal mod, this corrects the issue for everyone
-* Add Resources in World Map (Facultative) - add spirit stones and influence numbers and icons on the top right of the screen in the world map. Works on Xbox Gamepass version.
-* Correct Caged Animal's Perception (Facultative) - remove the 10 Perception from caged animals.
+* Add Resources in World Map (Optional) - add spirit stones and influence numbers and icons on the top right of the screen in the world map. Works on Xbox Gamepass version.
+* Correct Caged Animal's Perception (Optional) - remove the 10 Perception from caged animals.
 
 ## Install instructions
 
@@ -99,7 +99,6 @@ For example, removing the Ancient Formation Condition fix requires the removal o
 * Gong9_Esoterica_10 - Potential Value rework (Curious)
 * Gong13_Esoterica_3 - Potential Value rework (Curious)
 
-
 #### Elixirs (Dan)
 
 * Modifier_Item_XianShiChongSheng, Modifier_ItemXieShiChongSheng - Potential Value rework (Curious)
@@ -145,6 +144,7 @@ For example, removing the Ancient Formation Condition fix requires the removal o
 * Scripts\fix-state-3-equilibrium.lua - Fix State 3 Equilibrium
 * Scripts\correct-rock-yield.lua - Correct Rock Yield
 * Scripts\correct-caged-animals-perception.lua - Correct Caged Animal's Perception
+
 ### Game Constants
 
 * GameDefine.BeautyValueDesc - Beautiful Rooms mistakenly rated Common
@@ -155,6 +155,9 @@ For example, removing the Ancient Formation Condition fix requires the removal o
 * XiaWorld.HumanoidEvolutionMgr.ModifyNpcByFrag - For Yaoguai Fragment Skill Level fix, a Postfix, compatible with other Postfixes to the same function
 * Wnd_JianghuTalk.GiveGift2Target - For Greedy Personality Heart Unlockable, a Transpiler changing the ldc.r4:70 to ldc.r4:60
 * UILogicMode_IndividualCommand.CheckThing - Fix Refinement success chance estimation
+* Wnd_World.OnShowUpdate, Wnd_SchoolTrade.__selectyes, Wnd_ZhaoLanWindow.OnInit, Wnd_OpenOutsWindow.UpLevelSideBuild,Wnd_World.OpenRegion - Add Resources in World Map
+* ThingFlag<Npc>.BuildActionDict - Golden Core Qi Recovery
+* Panel_NpcPractice.OnUpdate_Nei - text issues
 
 ## How to Contribute
 
@@ -167,4 +170,4 @@ If the fixes exist as a standalone mod, include a link to it.
 
 ## Credits/Contributions
 
-* ucddj - Fix Max Qi Story, some translation issues, Fix Event A Different Time
+* ucddj - Fix Max Qi Story, text issues, Fix Event A Different Time, Craftsman trait, Fei attributes, Pets stats, State 3 Equilibrium, Golden Core Qi Recovery, Rock Yield, Caged Animal's Perception, Add Resources in World Map

@@ -1,5 +1,4 @@
-﻿using System;
-using XiaWorld;
+﻿using XiaWorld;
 using HarmonyLib;
 using UnityEngine;
 
