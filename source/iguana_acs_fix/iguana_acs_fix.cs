@@ -12,7 +12,8 @@ namespace iguana_acs_fix
         public static Dictionary<string, bool> config = new Dictionary<string, bool>()
         {
             { "ShowResourcesInWorldMap", ShowResourcesInWorldMap.enabled},
-            { "Correct Caged Animals Perception", true }
+            { "Correct Caged Animals Perception", true },
+            { "Painful Memory Count Fix", RoundedPainfulMemoryCount.enabled}
         };
 
         static Dictionary<string, List<Action>> loadSaveSubmods = new Dictionary<string, List<Action>>()
@@ -75,6 +76,7 @@ namespace iguana_acs_fix
         private static void HandleConfig()
         {
             ShowResourcesInWorldMap.enabled = Configuration.GetCheckBox("iguana_acs_fix", "ShowResourcesInWorldMap");
+            RoundedPainfulMemoryCount.enabled = Configuration.GetCheckBox("iguana_acs_fix", "Painful Memory Count Fix");
             Dictionary<string, bool> newConfig = new Dictionary<string, bool>();
             foreach (KeyValuePair<string, bool> kvp in config)
             {
