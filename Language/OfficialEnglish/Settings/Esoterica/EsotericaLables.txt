@@ -3,7 +3,7 @@ ID	Description	中间词缀 参与名字随机
 1	Increases Artifact Power.	Obliterating
 2	Increases Artifact's Qi Recovery Rate	Storing Spirit
 3	Increases Artifact Attack Speed	Swift Strike
-4	Increases Artifact Durability	Hybrid
+4	Increases Artifact Max Qi	Hybrid
 5	Increases Artifact Impact	Gigantic Pressure
 6	Increases Artifact Speed	Apparition
 7	Increases Artifact Agility	Round Turn

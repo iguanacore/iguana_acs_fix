@@ -20,6 +20,7 @@
 	<IllustratedHandLabel>Animal</IllustratedHandLabel>
 	<TexPath>tex://res/Sprs/tujian/TJ_fei01</TexPath>
 	<Rolepaint>res/Sprs/tujian/TJ_fei01</Rolepaint>
+	<Special>1</Special>
 	<HorseData>
 		<Mod>Mod/Npc/Fei/Base</Mod>
 		<RideBip>Bip001 Spine1</RideBip>
