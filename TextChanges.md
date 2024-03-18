@@ -20,6 +20,7 @@
 * Farming description: no longer (falsely) mentions an effect on plant growth speed
 * Auction suspensions: happend -> happening
 * Shapeshifting Tribulation: corrected tribulation order
+* Farming Tool: Restored translation, which was removed in 1.25
 
 
 ## Reading convenience and clarity

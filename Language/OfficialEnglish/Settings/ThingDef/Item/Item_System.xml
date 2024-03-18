@@ -1,5 +1,10 @@
 <Texts Type="Thing">
 	<List>
+		<Text Name="Item_SysSickle" sParam="Item">
+			<ThingName>Farming Tool</ThingName>
+			<Desc>A set of farm tools can hugely increase your farming speed and harvesting speed.</Desc>
+			<Item.FabaoSuffix>Hoe</Item.FabaoSuffix>
+		</Text>
 		<Text Name="Item_Gong12" sParam="Item">
 			<ThingName>Primordial Symbols Law</ThingName>
 			<Desc>A school of teachings thought to come from the Golden Immortal Yunzhong Zi. It found a new way outside of the traditional system of Xiandao Cultivation. Seizing the moment of breakthrough, one would be able to congeal five Natal Talismans, which have fascinating uses.</Desc>
