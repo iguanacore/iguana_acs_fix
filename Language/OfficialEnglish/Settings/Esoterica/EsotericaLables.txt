@@ -15,8 +15,6 @@ ID	Description	中间词缀 参与名字随机
 2002	Increases Spell Power	Heavenly Debacle
 2003	Reduces Spell Qi Cost	Blessed Spirit
 2004	Learn Combat Skill:	Spell Chant
-2005	Reduces Spell Cooldown	Urgent Chant
-		
 		
 3001	Increases Base Shield Value	Foundation Laying
 3002	Increases Shield Defense	Ironclad
