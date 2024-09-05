@@ -31,6 +31,7 @@ A mod, consisting of fixes for Amazing Cultivation Simulator, tries to avoid con
 * Correct Rock Yield - Rock yield is lower than it should be unless you are playing with a map reveal mod, this corrects the issue for everyone
 * Add Resources in World Map (Optional) - add spirit stones and influence numbers and icons on the top right of the screen in the world map. Works on Xbox Gamepass version.
 * Correct Caged Animal's Perception (Optional) - remove the 10 Perception from caged animals.
+* Rabbit Contract Solution - Boosts Rabbit Contracts at PS (From 1 AddV total to 2.5 AddV total, the equivalent of the Base+Rabbit speciality)
 
 ## Install instructions
 
@@ -98,6 +99,7 @@ For example, removing the Ancient Formation Condition fix requires the removal o
 * Gong4_LvUpEsoterica_1, Gong5_LvUpEsoterica_2, Gong5_LvUpEsoterica_3, Gong5_LvUpEsoterica_4, Gong5_LvUpEsoterica_5, Gong6_LvUpEsoterica_4, Gong7_LvUpEsoterica_4 - Potential Value rework (Curious)
 * Gong9_Esoterica_10 - Potential Value rework (Curious)
 * Gong13_Esoterica_3 - Potential Value rework (Curious)
+* Modifier_Horse_Rabbit_10 - Rabbit Contract Solution
 
 #### Elixirs (Dan)
 

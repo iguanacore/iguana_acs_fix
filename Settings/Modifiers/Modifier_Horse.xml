@@ -1,0 +1,8 @@
+<ModifierDefs><List>
+	<Modifier Name="Modifier_Horse_Rabbit_10" Type="Normal" Parent="Modifier_Horse_All_0">
+		<DisplayName>兔</DisplayName>
+		<Properties>  
+			<li Name="WorldMapFlySpeedAddP" AddV="2.5"/>
+		</Properties>
+	</Modifier> 
+</List></ModifierDefs>
